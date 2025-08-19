@@ -1,0 +1,2684 @@
+[
+  {
+    "remit_id": "R000000",
+    "claim_id": "C000187",
+    "patient_id": "P16398",
+    "amount_billed": 3649.86,
+    "amount_paid": 6846.67,
+    "department": "ICU",
+    "reason": "Underpayment",
+    "service_date": "2025-02-02",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000001",
+    "claim_id": "C002112",
+    "patient_id": "P64910",
+    "amount_billed": 3657.71,
+    "amount_paid": 7514.53,
+    "department": "Surgery",
+    "reason": "Zero payment",
+    "service_date": "2024-10-10",
+    "adjustments": [
+      "PI204",
+      "OA18",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000002",
+    "claim_id": "C002439",
+    "patient_id": "P85924",
+    "amount_billed": 7838.87,
+    "amount_paid": 2085.8,
+    "department": "ER",
+    "reason": "Overpayment",
+    "service_date": "2025-03-17",
+    "adjustments": [
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000003",
+    "claim_id": "C000116",
+    "patient_id": "P54031",
+    "amount_billed": 9504.81,
+    "amount_paid": 8996.87,
+    "department": "Radiology",
+    "reason": "Zero payment",
+    "service_date": "2024-02-11",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000004",
+    "claim_id": "C000396",
+    "patient_id": "P94498",
+    "amount_billed": 4046.47,
+    "amount_paid": 8830.96,
+    "department": "ER",
+    "reason": "Zero payment",
+    "service_date": "2024-11-18",
+    "adjustments": [
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000005",
+    "claim_id": "C001332",
+    "patient_id": "P43089",
+    "amount_billed": 9461.08,
+    "amount_paid": 2190.95,
+    "department": "Surgery",
+    "reason": "Overpayment",
+    "service_date": "2025-06-07",
+    "adjustments": [
+      "PR1",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000006",
+    "claim_id": "C004307",
+    "patient_id": "P71453",
+    "amount_billed": 4540.46,
+    "amount_paid": 5658.34,
+    "department": "Radiology",
+    "reason": "Zero payment",
+    "service_date": "2024-06-09",
+    "adjustments": [
+      "CO45",
+      "OA18",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000007",
+    "claim_id": "C004174",
+    "patient_id": "P30860",
+    "amount_billed": 145.16,
+    "amount_paid": 7706.2,
+    "department": "ICU",
+    "reason": "Overpayment",
+    "service_date": "2024-10-17",
+    "adjustments": [
+      "PR1",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000008",
+    "claim_id": "C001035",
+    "patient_id": "P59096",
+    "amount_billed": 2402.89,
+    "amount_paid": 7894.97,
+    "department": "Pharmacy",
+    "reason": "Zero payment",
+    "service_date": "2024-12-25",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000009",
+    "claim_id": "C000626",
+    "patient_id": "P42969",
+    "amount_billed": 6245.88,
+    "amount_paid": 3024.02,
+    "department": "ICU",
+    "reason": "Bundled service",
+    "service_date": "2025-02-13",
+    "adjustments": [
+      "CO45",
+      "OA18",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000010",
+    "claim_id": "C000756",
+    "patient_id": "P17430",
+    "amount_billed": 5910.51,
+    "amount_paid": 9296.47,
+    "department": "Surgery",
+    "reason": "Zero payment",
+    "service_date": "2025-05-03",
+    "adjustments": [
+      "CO45",
+      "PI204",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000011",
+    "claim_id": "C003712",
+    "patient_id": "P31935",
+    "amount_billed": 2325.83,
+    "amount_paid": 1760.07,
+    "department": "Radiology",
+    "reason": "Overpayment",
+    "service_date": "2024-03-21",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000012",
+    "claim_id": "C002886",
+    "patient_id": "P99552",
+    "amount_billed": 697.2,
+    "amount_paid": 3080.95,
+    "department": "Radiology",
+    "reason": "Bundled service",
+    "service_date": "2024-06-26",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000013",
+    "claim_id": "C003438",
+    "patient_id": "P93204",
+    "amount_billed": 2438.37,
+    "amount_paid": 9342.94,
+    "department": "ICU",
+    "reason": "Underpayment",
+    "service_date": "2025-07-20",
+    "adjustments": [
+      "CO45",
+      "PR1",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000014",
+    "claim_id": "C004950",
+    "patient_id": "P99191",
+    "amount_billed": 7154.97,
+    "amount_paid": 2948.16,
+    "department": "Radiology",
+    "reason": "Bundled service",
+    "service_date": "2025-04-05",
+    "adjustments": [
+      "CO45",
+      "OA18",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000015",
+    "claim_id": "C004431",
+    "patient_id": "P34475",
+    "amount_billed": 6102.2,
+    "amount_paid": 1809.91,
+    "department": "Radiology",
+    "reason": "Zero payment",
+    "service_date": "2024-05-13",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000016",
+    "claim_id": "C001056",
+    "patient_id": "P22089",
+    "amount_billed": 854.2,
+    "amount_paid": 9779.14,
+    "department": "Radiology",
+    "reason": "Underpayment",
+    "service_date": "2024-02-26",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000017",
+    "claim_id": "C001065",
+    "patient_id": "P95369",
+    "amount_billed": 4901.84,
+    "amount_paid": 9184.17,
+    "department": "Radiology",
+    "reason": "Underpayment",
+    "service_date": "2024-12-15",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000018",
+    "claim_id": "C000882",
+    "patient_id": "P13230",
+    "amount_billed": 6159.53,
+    "amount_paid": 3667.14,
+    "department": "ICU",
+    "reason": "Zero payment",
+    "service_date": "2025-07-24",
+    "adjustments": [
+      "PR1",
+      "CO45",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000019",
+    "claim_id": "C003296",
+    "patient_id": "P16565",
+    "amount_billed": 636.96,
+    "amount_paid": 3009.97,
+    "department": "ICU",
+    "reason": "Zero payment",
+    "service_date": "2024-01-04",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000020",
+    "claim_id": "C000225",
+    "patient_id": "P69399",
+    "amount_billed": 6475.37,
+    "amount_paid": 5265.57,
+    "department": "Radiology",
+    "reason": "Overpayment",
+    "service_date": "2025-03-17",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000021",
+    "claim_id": "C001488",
+    "patient_id": "P50311",
+    "amount_billed": 5710.81,
+    "amount_paid": 1817.17,
+    "department": "ER",
+    "reason": "Overpayment",
+    "service_date": "2024-10-08",
+    "adjustments": [
+      "PI204",
+      "CO45",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000022",
+    "claim_id": "C000551",
+    "patient_id": "P70409",
+    "amount_billed": 6021.63,
+    "amount_paid": 6622.75,
+    "department": "ICU",
+    "reason": "Overpayment",
+    "service_date": "2024-05-18",
+    "adjustments": [
+      "PI204",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000023",
+    "claim_id": "C004892",
+    "patient_id": "P13892",
+    "amount_billed": 6655.53,
+    "amount_paid": 390.17,
+    "department": "ER",
+    "reason": "Bundled service",
+    "service_date": "2024-03-03",
+    "adjustments": [
+      "PR1",
+      "CO45",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000024",
+    "claim_id": "C002637",
+    "patient_id": "P67969",
+    "amount_billed": 1399.65,
+    "amount_paid": 2269.01,
+    "department": "Lab",
+    "reason": "Overpayment",
+    "service_date": "2024-10-07",
+    "adjustments": [
+      "OA18",
+      "PI204",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000025",
+    "claim_id": "C002216",
+    "patient_id": "P88990",
+    "amount_billed": 2854.18,
+    "amount_paid": 7427.76,
+    "department": "Radiology",
+    "reason": "Bundled service",
+    "service_date": "2025-04-22",
+    "adjustments": [
+      "CO45",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000026",
+    "claim_id": "C002513",
+    "patient_id": "P80690",
+    "amount_billed": 2608.11,
+    "amount_paid": 7759.54,
+    "department": "ER",
+    "reason": "Zero payment",
+    "service_date": "2024-05-27",
+    "adjustments": [
+      "OA18",
+      "PI204",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000027",
+    "claim_id": "C003435",
+    "patient_id": "P81157",
+    "amount_billed": 9827.64,
+    "amount_paid": 1067.64,
+    "department": "Radiology",
+    "reason": "Overpayment",
+    "service_date": "2024-10-13",
+    "adjustments": [
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000028",
+    "claim_id": "C000421",
+    "patient_id": "P46785",
+    "amount_billed": 626.26,
+    "amount_paid": 8837.66,
+    "department": "Lab",
+    "reason": "Underpayment",
+    "service_date": "2024-08-14",
+    "adjustments": [
+      "CO45",
+      "OA18",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000029",
+    "claim_id": "C004304",
+    "patient_id": "P41005",
+    "amount_billed": 6264.72,
+    "amount_paid": 6139.39,
+    "department": "Lab",
+    "reason": "Bundled service",
+    "service_date": "2024-08-09",
+    "adjustments": [
+      "PI204",
+      "OA18",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000030",
+    "claim_id": "C002850",
+    "patient_id": "P19836",
+    "amount_billed": 2715.36,
+    "amount_paid": 2900.77,
+    "department": "Radiology",
+    "reason": "Zero payment",
+    "service_date": "2025-01-17",
+    "adjustments": [
+      "CO45",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000031",
+    "claim_id": "C000635",
+    "patient_id": "P68949",
+    "amount_billed": 4337.15,
+    "amount_paid": 5770.6,
+    "department": "Lab",
+    "reason": "Bundled service",
+    "service_date": "2024-01-08",
+    "adjustments": [
+      "PR1",
+      "CO45",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000032",
+    "claim_id": "C001573",
+    "patient_id": "P25170",
+    "amount_billed": 9364.4,
+    "amount_paid": 6654.84,
+    "department": "Surgery",
+    "reason": "Underpayment",
+    "service_date": "2025-03-31",
+    "adjustments": [
+      "OA18",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000033",
+    "claim_id": "C004885",
+    "patient_id": "P18157",
+    "amount_billed": 4797.61,
+    "amount_paid": 2148.39,
+    "department": "ER",
+    "reason": "Underpayment",
+    "service_date": "2025-06-08",
+    "adjustments": [
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000034",
+    "claim_id": "C004101",
+    "patient_id": "P36688",
+    "amount_billed": 4462.91,
+    "amount_paid": 816.78,
+    "department": "Surgery",
+    "reason": "Zero payment",
+    "service_date": "2024-08-08",
+    "adjustments": [
+      "CO45",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000035",
+    "claim_id": "C003353",
+    "patient_id": "P73978",
+    "amount_billed": 1749.48,
+    "amount_paid": 8870.25,
+    "department": "Lab",
+    "reason": "Underpayment",
+    "service_date": "2024-06-08",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000036",
+    "claim_id": "C002298",
+    "patient_id": "P66846",
+    "amount_billed": 1976.46,
+    "amount_paid": 1493.55,
+    "department": "Surgery",
+    "reason": "Bundled service",
+    "service_date": "2024-06-28",
+    "adjustments": [
+      "PR1",
+      "CO45",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000037",
+    "claim_id": "C002108",
+    "patient_id": "P87289",
+    "amount_billed": 2900.39,
+    "amount_paid": 9174.59,
+    "department": "Lab",
+    "reason": "Zero payment",
+    "service_date": "2025-02-04",
+    "adjustments": [
+      "CO45",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000038",
+    "claim_id": "C001152",
+    "patient_id": "P44196",
+    "amount_billed": 1054.34,
+    "amount_paid": 2018.33,
+    "department": "Pharmacy",
+    "reason": "Underpayment",
+    "service_date": "2025-04-22",
+    "adjustments": [
+      "PI204",
+      "CO45",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000039",
+    "claim_id": "C001676",
+    "patient_id": "P27789",
+    "amount_billed": 9001.95,
+    "amount_paid": 8066.97,
+    "department": "ICU",
+    "reason": "Zero payment",
+    "service_date": "2025-05-08",
+    "adjustments": [
+      "PI204",
+      "PR1",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000040",
+    "claim_id": "C004790",
+    "patient_id": "P91666",
+    "amount_billed": 168.29,
+    "amount_paid": 4921.4,
+    "department": "ER",
+    "reason": "Bundled service",
+    "service_date": "2025-07-14",
+    "adjustments": [
+      "OA18",
+      "PI204",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000041",
+    "claim_id": "C003429",
+    "patient_id": "P30141",
+    "amount_billed": 1820.82,
+    "amount_paid": 6800.27,
+    "department": "Pharmacy",
+    "reason": "Overpayment",
+    "service_date": "2025-04-24",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000042",
+    "claim_id": "C004330",
+    "patient_id": "P32247",
+    "amount_billed": 5128.54,
+    "amount_paid": 1925.11,
+    "department": "ICU",
+    "reason": "Underpayment",
+    "service_date": "2024-08-22",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000043",
+    "claim_id": "C004377",
+    "patient_id": "P68401",
+    "amount_billed": 5674.64,
+    "amount_paid": 6863.93,
+    "department": "Lab",
+    "reason": "Bundled service",
+    "service_date": "2024-03-07",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000044",
+    "claim_id": "C003640",
+    "patient_id": "P37499",
+    "amount_billed": 5866.18,
+    "amount_paid": 353.83,
+    "department": "Pharmacy",
+    "reason": "Overpayment",
+    "service_date": "2024-08-04",
+    "adjustments": [
+      "CO45",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000045",
+    "claim_id": "C001996",
+    "patient_id": "P67344",
+    "amount_billed": 6468.34,
+    "amount_paid": 9769.33,
+    "department": "Pharmacy",
+    "reason": "Bundled service",
+    "service_date": "2024-11-17",
+    "adjustments": [
+      "PR1",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000046",
+    "claim_id": "C004721",
+    "patient_id": "P58298",
+    "amount_billed": 4527.63,
+    "amount_paid": 4160.59,
+    "department": "Lab",
+    "reason": "Zero payment",
+    "service_date": "2025-03-31",
+    "adjustments": [
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000047",
+    "claim_id": "C001445",
+    "patient_id": "P78431",
+    "amount_billed": 742.76,
+    "amount_paid": 430.84,
+    "department": "ER",
+    "reason": "Bundled service",
+    "service_date": "2025-06-26",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000048",
+    "claim_id": "C004329",
+    "patient_id": "P34255",
+    "amount_billed": 8729.76,
+    "amount_paid": 1296.35,
+    "department": "ER",
+    "reason": "Overpayment",
+    "service_date": "2024-11-10",
+    "adjustments": [
+      "OA18",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000049",
+    "claim_id": "C000005",
+    "patient_id": "P23872",
+    "amount_billed": 7457.19,
+    "amount_paid": 4819.77,
+    "department": "Lab",
+    "reason": "Underpayment",
+    "service_date": "2024-08-21",
+    "adjustments": [
+      "PI204",
+      "OA18",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000050",
+    "claim_id": "C003022",
+    "patient_id": "P83198",
+    "amount_billed": 9905.63,
+    "amount_paid": 5312.9,
+    "department": "Lab",
+    "reason": "Underpayment",
+    "service_date": "2025-07-27",
+    "adjustments": [
+      "PI204",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000051",
+    "claim_id": "C003236",
+    "patient_id": "P96650",
+    "amount_billed": 7151.18,
+    "amount_paid": 3653.62,
+    "department": "Surgery",
+    "reason": "Overpayment",
+    "service_date": "2024-12-14",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000052",
+    "claim_id": "C004173",
+    "patient_id": "P94305",
+    "amount_billed": 6177.64,
+    "amount_paid": 8905.78,
+    "department": "Pharmacy",
+    "reason": "Zero payment",
+    "service_date": "2025-07-07",
+    "adjustments": [
+      "CO45",
+      "OA18",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000053",
+    "claim_id": "C000934",
+    "patient_id": "P64267",
+    "amount_billed": 3962.83,
+    "amount_paid": 6660.05,
+    "department": "Lab",
+    "reason": "Bundled service",
+    "service_date": "2025-06-27",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000054",
+    "claim_id": "C003158",
+    "patient_id": "P56046",
+    "amount_billed": 8317.62,
+    "amount_paid": 7760.92,
+    "department": "ICU",
+    "reason": "Zero payment",
+    "service_date": "2024-05-28",
+    "adjustments": [
+      "OA18",
+      "PR1",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000055",
+    "claim_id": "C004616",
+    "patient_id": "P68425",
+    "amount_billed": 7092.67,
+    "amount_paid": 4077.6,
+    "department": "Pharmacy",
+    "reason": "Underpayment",
+    "service_date": "2024-06-28",
+    "adjustments": [
+      "CO45",
+      "PR1",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000056",
+    "claim_id": "C002837",
+    "patient_id": "P92885",
+    "amount_billed": 1987.05,
+    "amount_paid": 104.25,
+    "department": "Surgery",
+    "reason": "Bundled service",
+    "service_date": "2024-06-09",
+    "adjustments": [
+      "PR1",
+      "OA18",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000057",
+    "claim_id": "C000436",
+    "patient_id": "P73881",
+    "amount_billed": 6165.4,
+    "amount_paid": 3295.29,
+    "department": "Radiology",
+    "reason": "Underpayment",
+    "service_date": "2025-01-03",
+    "adjustments": [
+      "CO45",
+      "PR1",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000058",
+    "claim_id": "C004028",
+    "patient_id": "P85483",
+    "amount_billed": 1180.44,
+    "amount_paid": 7538.32,
+    "department": "Surgery",
+    "reason": "Overpayment",
+    "service_date": "2025-06-01",
+    "adjustments": [
+      "PR1",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000059",
+    "claim_id": "C001029",
+    "patient_id": "P77377",
+    "amount_billed": 9367.68,
+    "amount_paid": 1108.59,
+    "department": "ER",
+    "reason": "Zero payment",
+    "service_date": "2024-12-10",
+    "adjustments": [
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000060",
+    "claim_id": "C004535",
+    "patient_id": "P97098",
+    "amount_billed": 4708.24,
+    "amount_paid": 3453.77,
+    "department": "Pharmacy",
+    "reason": "Bundled service",
+    "service_date": "2025-05-18",
+    "adjustments": [
+      "OA18",
+      "CO45",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000061",
+    "claim_id": "C001668",
+    "patient_id": "P23628",
+    "amount_billed": 3213.73,
+    "amount_paid": 4619.66,
+    "department": "Pharmacy",
+    "reason": "Zero payment",
+    "service_date": "2025-06-05",
+    "adjustments": [
+      "PI204",
+      "PR1",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000062",
+    "claim_id": "C004492",
+    "patient_id": "P81288",
+    "amount_billed": 8830.55,
+    "amount_paid": 4339.84,
+    "department": "ER",
+    "reason": "Overpayment",
+    "service_date": "2024-11-15",
+    "adjustments": [
+      "OA18",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000063",
+    "claim_id": "C004147",
+    "patient_id": "P13105",
+    "amount_billed": 5218.33,
+    "amount_paid": 704.1,
+    "department": "Pharmacy",
+    "reason": "Bundled service",
+    "service_date": "2025-04-25",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000064",
+    "claim_id": "C003256",
+    "patient_id": "P71478",
+    "amount_billed": 2803.87,
+    "amount_paid": 5576.73,
+    "department": "Surgery",
+    "reason": "Underpayment",
+    "service_date": "2025-03-08",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000065",
+    "claim_id": "C001258",
+    "patient_id": "P35220",
+    "amount_billed": 2549.9,
+    "amount_paid": 3738.51,
+    "department": "Lab",
+    "reason": "Zero payment",
+    "service_date": "2024-05-31",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000066",
+    "claim_id": "C000165",
+    "patient_id": "P92811",
+    "amount_billed": 9852.43,
+    "amount_paid": 8078.16,
+    "department": "ER",
+    "reason": "Zero payment",
+    "service_date": "2024-03-14",
+    "adjustments": [
+      "CO45",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000067",
+    "claim_id": "C003098",
+    "patient_id": "P19455",
+    "amount_billed": 6666.73,
+    "amount_paid": 9949.6,
+    "department": "ER",
+    "reason": "Underpayment",
+    "service_date": "2024-03-05",
+    "adjustments": [
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000068",
+    "claim_id": "C003935",
+    "patient_id": "P38515",
+    "amount_billed": 536.27,
+    "amount_paid": 3765.87,
+    "department": "ER",
+    "reason": "Overpayment",
+    "service_date": "2024-11-09",
+    "adjustments": [
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000069",
+    "claim_id": "C001022",
+    "patient_id": "P35575",
+    "amount_billed": 111.72,
+    "amount_paid": 1856.43,
+    "department": "Surgery",
+    "reason": "Underpayment",
+    "service_date": "2024-09-05",
+    "adjustments": [
+      "PI204",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000070",
+    "claim_id": "C000986",
+    "patient_id": "P27246",
+    "amount_billed": 6277.84,
+    "amount_paid": 5789.04,
+    "department": "Radiology",
+    "reason": "Underpayment",
+    "service_date": "2024-12-09",
+    "adjustments": [
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000071",
+    "claim_id": "C000301",
+    "patient_id": "P94238",
+    "amount_billed": 2766.75,
+    "amount_paid": 5683.48,
+    "department": "Lab",
+    "reason": "Underpayment",
+    "service_date": "2024-06-15",
+    "adjustments": [
+      "CO45",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000072",
+    "claim_id": "C002625",
+    "patient_id": "P56077",
+    "amount_billed": 1966.23,
+    "amount_paid": 2789.79,
+    "department": "Lab",
+    "reason": "Zero payment",
+    "service_date": "2024-05-11",
+    "adjustments": [
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000073",
+    "claim_id": "C001677",
+    "patient_id": "P61275",
+    "amount_billed": 7361.03,
+    "amount_paid": 8238.09,
+    "department": "Radiology",
+    "reason": "Underpayment",
+    "service_date": "2025-04-12",
+    "adjustments": [
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000074",
+    "claim_id": "C001233",
+    "patient_id": "P39517",
+    "amount_billed": 6719.86,
+    "amount_paid": 6423.39,
+    "department": "Pharmacy",
+    "reason": "Zero payment",
+    "service_date": "2024-08-13",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000075",
+    "claim_id": "C002838",
+    "patient_id": "P30280",
+    "amount_billed": 4805.54,
+    "amount_paid": 4066.47,
+    "department": "ER",
+    "reason": "Underpayment",
+    "service_date": "2025-06-14",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000076",
+    "claim_id": "C001592",
+    "patient_id": "P33992",
+    "amount_billed": 4355.52,
+    "amount_paid": 7541.27,
+    "department": "ER",
+    "reason": "Bundled service",
+    "service_date": "2025-07-13",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000077",
+    "claim_id": "C003779",
+    "patient_id": "P86488",
+    "amount_billed": 7646.23,
+    "amount_paid": 8423.64,
+    "department": "Surgery",
+    "reason": "Underpayment",
+    "service_date": "2025-01-05",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000078",
+    "claim_id": "C001179",
+    "patient_id": "P86400",
+    "amount_billed": 9462.76,
+    "amount_paid": 8595.04,
+    "department": "Surgery",
+    "reason": "Bundled service",
+    "service_date": "2025-02-11",
+    "adjustments": [
+      "OA18",
+      "PR1",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000079",
+    "claim_id": "C003768",
+    "patient_id": "P38107",
+    "amount_billed": 2037.49,
+    "amount_paid": 6369.85,
+    "department": "Radiology",
+    "reason": "Zero payment",
+    "service_date": "2025-04-17",
+    "adjustments": [
+      "CO45",
+      "PR1",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000080",
+    "claim_id": "C002449",
+    "patient_id": "P66863",
+    "amount_billed": 1494.51,
+    "amount_paid": 243.38,
+    "department": "Radiology",
+    "reason": "Overpayment",
+    "service_date": "2024-08-17",
+    "adjustments": [
+      "CO45",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000081",
+    "claim_id": "C004840",
+    "patient_id": "P45229",
+    "amount_billed": 7526.52,
+    "amount_paid": 4974.39,
+    "department": "Lab",
+    "reason": "Underpayment",
+    "service_date": "2024-10-26",
+    "adjustments": [
+      "PR1",
+      "CO45",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000082",
+    "claim_id": "C000046",
+    "patient_id": "P22380",
+    "amount_billed": 7312.53,
+    "amount_paid": 5334.7,
+    "department": "Lab",
+    "reason": "Zero payment",
+    "service_date": "2024-07-04",
+    "adjustments": [
+      "PR1",
+      "PI204",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000083",
+    "claim_id": "C002641",
+    "patient_id": "P83733",
+    "amount_billed": 8616.2,
+    "amount_paid": 7355.72,
+    "department": "Surgery",
+    "reason": "Bundled service",
+    "service_date": "2024-10-21",
+    "adjustments": [
+      "PR1",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000084",
+    "claim_id": "C001502",
+    "patient_id": "P20222",
+    "amount_billed": 7367.32,
+    "amount_paid": 9777.23,
+    "department": "ER",
+    "reason": "Bundled service",
+    "service_date": "2025-03-26",
+    "adjustments": [
+      "CO45",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000085",
+    "claim_id": "C004080",
+    "patient_id": "P79760",
+    "amount_billed": 7930.84,
+    "amount_paid": 834.72,
+    "department": "Pharmacy",
+    "reason": "Bundled service",
+    "service_date": "2024-05-23",
+    "adjustments": [
+      "PI204",
+      "OA18",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000086",
+    "claim_id": "C001624",
+    "patient_id": "P39695",
+    "amount_billed": 4872.81,
+    "amount_paid": 2293.17,
+    "department": "Radiology",
+    "reason": "Underpayment",
+    "service_date": "2025-02-12",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000087",
+    "claim_id": "C000595",
+    "patient_id": "P12211",
+    "amount_billed": 7622.51,
+    "amount_paid": 7171.16,
+    "department": "Radiology",
+    "reason": "Bundled service",
+    "service_date": "2024-08-29",
+    "adjustments": [
+      "PI204",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000088",
+    "claim_id": "C004246",
+    "patient_id": "P29427",
+    "amount_billed": 5246.97,
+    "amount_paid": 1816.93,
+    "department": "ICU",
+    "reason": "Bundled service",
+    "service_date": "2025-04-15",
+    "adjustments": [
+      "PI204",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000089",
+    "claim_id": "C001506",
+    "patient_id": "P47334",
+    "amount_billed": 6218.13,
+    "amount_paid": 580.87,
+    "department": "Lab",
+    "reason": "Overpayment",
+    "service_date": "2024-09-19",
+    "adjustments": [
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000090",
+    "claim_id": "C004945",
+    "patient_id": "P99800",
+    "amount_billed": 2573.29,
+    "amount_paid": 597.9,
+    "department": "Surgery",
+    "reason": "Underpayment",
+    "service_date": "2024-12-22",
+    "adjustments": [
+      "CO45",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000091",
+    "claim_id": "C002891",
+    "patient_id": "P51158",
+    "amount_billed": 2079.81,
+    "amount_paid": 6438.58,
+    "department": "Radiology",
+    "reason": "Bundled service",
+    "service_date": "2025-05-02",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000092",
+    "claim_id": "C002299",
+    "patient_id": "P58318",
+    "amount_billed": 7676.67,
+    "amount_paid": 1042.61,
+    "department": "Surgery",
+    "reason": "Bundled service",
+    "service_date": "2025-03-15",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000093",
+    "claim_id": "C003483",
+    "patient_id": "P95089",
+    "amount_billed": 1643.25,
+    "amount_paid": 9769.06,
+    "department": "ER",
+    "reason": "Underpayment",
+    "service_date": "2025-02-18",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000094",
+    "claim_id": "C002656",
+    "patient_id": "P60770",
+    "amount_billed": 4266.8,
+    "amount_paid": 3873.17,
+    "department": "Radiology",
+    "reason": "Overpayment",
+    "service_date": "2024-01-24",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000095",
+    "claim_id": "C001705",
+    "patient_id": "P72500",
+    "amount_billed": 2739.5,
+    "amount_paid": 4809.09,
+    "department": "ICU",
+    "reason": "Underpayment",
+    "service_date": "2024-07-13",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000096",
+    "claim_id": "C001282",
+    "patient_id": "P42073",
+    "amount_billed": 6466.77,
+    "amount_paid": 882.25,
+    "department": "ICU",
+    "reason": "Overpayment",
+    "service_date": "2024-01-22",
+    "adjustments": [
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000097",
+    "claim_id": "C001582",
+    "patient_id": "P76407",
+    "amount_billed": 3067.92,
+    "amount_paid": 5363.63,
+    "department": "Pharmacy",
+    "reason": "Underpayment",
+    "service_date": "2024-01-15",
+    "adjustments": [
+      "PR1",
+      "CO45",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000098",
+    "claim_id": "C003347",
+    "patient_id": "P95402",
+    "amount_billed": 677.01,
+    "amount_paid": 6960.84,
+    "department": "Lab",
+    "reason": "Zero payment",
+    "service_date": "2024-11-24",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000099",
+    "claim_id": "C003025",
+    "patient_id": "P83913",
+    "amount_billed": 7762.42,
+    "amount_paid": 4765.71,
+    "department": "Pharmacy",
+    "reason": "Overpayment",
+    "service_date": "2024-04-07",
+    "adjustments": [
+      "PI204",
+      "CO45",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000100",
+    "claim_id": "C000052",
+    "patient_id": "P93730",
+    "amount_billed": 4614.81,
+    "amount_paid": 2036.43,
+    "department": "ICU",
+    "reason": "Bundled service",
+    "service_date": "2025-06-06",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000101",
+    "claim_id": "C001099",
+    "patient_id": "P71063",
+    "amount_billed": 4829.6,
+    "amount_paid": 6045.15,
+    "department": "Lab",
+    "reason": "Overpayment",
+    "service_date": "2024-01-01",
+    "adjustments": [
+      "PI204",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000102",
+    "claim_id": "C000157",
+    "patient_id": "P22967",
+    "amount_billed": 9010.46,
+    "amount_paid": 9598.98,
+    "department": "Surgery",
+    "reason": "Overpayment",
+    "service_date": "2025-01-19",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000103",
+    "claim_id": "C000023",
+    "patient_id": "P33507",
+    "amount_billed": 9559.23,
+    "amount_paid": 302.77,
+    "department": "ICU",
+    "reason": "Underpayment",
+    "service_date": "2024-07-30",
+    "adjustments": [
+      "PR1",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000104",
+    "claim_id": "C004444",
+    "patient_id": "P98706",
+    "amount_billed": 7716.03,
+    "amount_paid": 548.51,
+    "department": "ICU",
+    "reason": "Zero payment",
+    "service_date": "2025-02-08",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000105",
+    "claim_id": "C001733",
+    "patient_id": "P78066",
+    "amount_billed": 959.35,
+    "amount_paid": 1940.02,
+    "department": "Pharmacy",
+    "reason": "Bundled service",
+    "service_date": "2024-11-20",
+    "adjustments": [
+      "CO45",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000106",
+    "claim_id": "C000619",
+    "patient_id": "P33807",
+    "amount_billed": 5943.39,
+    "amount_paid": 3122.83,
+    "department": "ICU",
+    "reason": "Overpayment",
+    "service_date": "2024-07-18",
+    "adjustments": [
+      "PR1",
+      "PI204",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000107",
+    "claim_id": "C003475",
+    "patient_id": "P44317",
+    "amount_billed": 3742.34,
+    "amount_paid": 1969.38,
+    "department": "Lab",
+    "reason": "Underpayment",
+    "service_date": "2025-07-04",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000108",
+    "claim_id": "C004464",
+    "patient_id": "P97345",
+    "amount_billed": 4277.51,
+    "amount_paid": 3783.48,
+    "department": "Lab",
+    "reason": "Bundled service",
+    "service_date": "2024-09-30",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000109",
+    "claim_id": "C002387",
+    "patient_id": "P49843",
+    "amount_billed": 2672.64,
+    "amount_paid": 3043.49,
+    "department": "Pharmacy",
+    "reason": "Underpayment",
+    "service_date": "2025-04-21",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000110",
+    "claim_id": "C004568",
+    "patient_id": "P51984",
+    "amount_billed": 7072.69,
+    "amount_paid": 2988.63,
+    "department": "Radiology",
+    "reason": "Underpayment",
+    "service_date": "2024-07-28",
+    "adjustments": [
+      "PI204",
+      "PR1",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000111",
+    "claim_id": "C004645",
+    "patient_id": "P99524",
+    "amount_billed": 814.26,
+    "amount_paid": 6623.83,
+    "department": "Lab",
+    "reason": "Bundled service",
+    "service_date": "2025-04-17",
+    "adjustments": [
+      "OA18",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000112",
+    "claim_id": "C003441",
+    "patient_id": "P50850",
+    "amount_billed": 6433.52,
+    "amount_paid": 7283.5,
+    "department": "Lab",
+    "reason": "Bundled service",
+    "service_date": "2025-05-13",
+    "adjustments": [
+      "OA18",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000113",
+    "claim_id": "C003265",
+    "patient_id": "P85332",
+    "amount_billed": 3277.71,
+    "amount_paid": 4257.68,
+    "department": "Surgery",
+    "reason": "Underpayment",
+    "service_date": "2025-06-15",
+    "adjustments": [
+      "OA18",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000114",
+    "claim_id": "C004564",
+    "patient_id": "P19738",
+    "amount_billed": 8410.35,
+    "amount_paid": 8209.19,
+    "department": "Radiology",
+    "reason": "Overpayment",
+    "service_date": "2025-07-17",
+    "adjustments": [
+      "PI204",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000115",
+    "claim_id": "C004504",
+    "patient_id": "P35539",
+    "amount_billed": 3073.08,
+    "amount_paid": 5613.91,
+    "department": "Pharmacy",
+    "reason": "Bundled service",
+    "service_date": "2025-03-29",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000116",
+    "claim_id": "C001838",
+    "patient_id": "P12352",
+    "amount_billed": 5874.75,
+    "amount_paid": 5451.39,
+    "department": "ER",
+    "reason": "Overpayment",
+    "service_date": "2024-08-23",
+    "adjustments": [
+      "PI204",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000117",
+    "claim_id": "C001110",
+    "patient_id": "P22861",
+    "amount_billed": 5195.32,
+    "amount_paid": 23.48,
+    "department": "Surgery",
+    "reason": "Overpayment",
+    "service_date": "2024-11-05",
+    "adjustments": [
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000118",
+    "claim_id": "C003030",
+    "patient_id": "P71769",
+    "amount_billed": 9417.32,
+    "amount_paid": 4563.44,
+    "department": "Surgery",
+    "reason": "Overpayment",
+    "service_date": "2025-04-08",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000119",
+    "claim_id": "C001137",
+    "patient_id": "P13429",
+    "amount_billed": 4879.49,
+    "amount_paid": 9418.06,
+    "department": "ICU",
+    "reason": "Zero payment",
+    "service_date": "2025-01-13",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000120",
+    "claim_id": "C002970",
+    "patient_id": "P75200",
+    "amount_billed": 4691.0,
+    "amount_paid": 9749.56,
+    "department": "ER",
+    "reason": "Overpayment",
+    "service_date": "2025-03-17",
+    "adjustments": [
+      "PI204",
+      "CO45",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000121",
+    "claim_id": "C002053",
+    "patient_id": "P73770",
+    "amount_billed": 8251.27,
+    "amount_paid": 1245.4,
+    "department": "ICU",
+    "reason": "Bundled service",
+    "service_date": "2025-05-31",
+    "adjustments": [
+      "PR1",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000122",
+    "claim_id": "C004249",
+    "patient_id": "P46128",
+    "amount_billed": 6701.14,
+    "amount_paid": 7539.24,
+    "department": "Radiology",
+    "reason": "Zero payment",
+    "service_date": "2025-07-21",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000123",
+    "claim_id": "C004081",
+    "patient_id": "P71647",
+    "amount_billed": 2645.19,
+    "amount_paid": 7300.16,
+    "department": "ICU",
+    "reason": "Underpayment",
+    "service_date": "2024-04-29",
+    "adjustments": [
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000124",
+    "claim_id": "C003707",
+    "patient_id": "P37236",
+    "amount_billed": 754.23,
+    "amount_paid": 79.62,
+    "department": "Lab",
+    "reason": "Zero payment",
+    "service_date": "2024-03-14",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000125",
+    "claim_id": "C004575",
+    "patient_id": "P21500",
+    "amount_billed": 6744.48,
+    "amount_paid": 6861.66,
+    "department": "Surgery",
+    "reason": "Bundled service",
+    "service_date": "2024-02-27",
+    "adjustments": [
+      "CO45",
+      "OA18",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000126",
+    "claim_id": "C000709",
+    "patient_id": "P86394",
+    "amount_billed": 4041.85,
+    "amount_paid": 1183.15,
+    "department": "ER",
+    "reason": "Zero payment",
+    "service_date": "2024-08-06",
+    "adjustments": [
+      "CO45",
+      "PI204",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000127",
+    "claim_id": "C000631",
+    "patient_id": "P37830",
+    "amount_billed": 7934.8,
+    "amount_paid": 9597.84,
+    "department": "ER",
+    "reason": "Underpayment",
+    "service_date": "2025-04-01",
+    "adjustments": [
+      "OA18",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000128",
+    "claim_id": "C002226",
+    "patient_id": "P44182",
+    "amount_billed": 4498.71,
+    "amount_paid": 2025.79,
+    "department": "ICU",
+    "reason": "Bundled service",
+    "service_date": "2025-01-07",
+    "adjustments": [
+      "OA18",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000129",
+    "claim_id": "C001122",
+    "patient_id": "P16716",
+    "amount_billed": 1004.07,
+    "amount_paid": 3734.36,
+    "department": "Radiology",
+    "reason": "Bundled service",
+    "service_date": "2025-07-20",
+    "adjustments": [
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000130",
+    "claim_id": "C004592",
+    "patient_id": "P39462",
+    "amount_billed": 7469.31,
+    "amount_paid": 831.8,
+    "department": "Surgery",
+    "reason": "Underpayment",
+    "service_date": "2024-08-11",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000131",
+    "claim_id": "C002985",
+    "patient_id": "P88956",
+    "amount_billed": 9302.36,
+    "amount_paid": 8461.94,
+    "department": "ER",
+    "reason": "Overpayment",
+    "service_date": "2024-12-29",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000132",
+    "claim_id": "C003957",
+    "patient_id": "P90407",
+    "amount_billed": 3320.91,
+    "amount_paid": 6348.82,
+    "department": "ER",
+    "reason": "Zero payment",
+    "service_date": "2024-04-23",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000133",
+    "claim_id": "C004730",
+    "patient_id": "P27794",
+    "amount_billed": 7088.2,
+    "amount_paid": 2465.76,
+    "department": "Pharmacy",
+    "reason": "Overpayment",
+    "service_date": "2025-05-02",
+    "adjustments": [
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000134",
+    "claim_id": "C002778",
+    "patient_id": "P77177",
+    "amount_billed": 5769.15,
+    "amount_paid": 7205.59,
+    "department": "ER",
+    "reason": "Zero payment",
+    "service_date": "2025-05-19",
+    "adjustments": [
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000135",
+    "claim_id": "C003528",
+    "patient_id": "P88359",
+    "amount_billed": 4037.61,
+    "amount_paid": 2525.3,
+    "department": "Radiology",
+    "reason": "Overpayment",
+    "service_date": "2024-09-14",
+    "adjustments": [
+      "CO45",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000136",
+    "claim_id": "C004436",
+    "patient_id": "P58190",
+    "amount_billed": 8418.95,
+    "amount_paid": 3587.26,
+    "department": "Surgery",
+    "reason": "Underpayment",
+    "service_date": "2024-02-15",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000137",
+    "claim_id": "C000545",
+    "patient_id": "P14821",
+    "amount_billed": 5372.44,
+    "amount_paid": 2521.73,
+    "department": "ER",
+    "reason": "Zero payment",
+    "service_date": "2024-10-19",
+    "adjustments": [
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000138",
+    "claim_id": "C000144",
+    "patient_id": "P61875",
+    "amount_billed": 4323.96,
+    "amount_paid": 8749.97,
+    "department": "ICU",
+    "reason": "Underpayment",
+    "service_date": "2025-03-13",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000139",
+    "claim_id": "C002424",
+    "patient_id": "P13074",
+    "amount_billed": 7862.29,
+    "amount_paid": 1757.6,
+    "department": "Pharmacy",
+    "reason": "Bundled service",
+    "service_date": "2024-11-18",
+    "adjustments": [
+      "OA18",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000140",
+    "claim_id": "C000883",
+    "patient_id": "P58300",
+    "amount_billed": 5142.24,
+    "amount_paid": 3673.28,
+    "department": "ER",
+    "reason": "Bundled service",
+    "service_date": "2024-08-22",
+    "adjustments": [
+      "OA18",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000141",
+    "claim_id": "C003169",
+    "patient_id": "P94441",
+    "amount_billed": 4861.13,
+    "amount_paid": 5484.49,
+    "department": "Lab",
+    "reason": "Overpayment",
+    "service_date": "2024-12-27",
+    "adjustments": [
+      "PI204",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000142",
+    "claim_id": "C000102",
+    "patient_id": "P61733",
+    "amount_billed": 4318.47,
+    "amount_paid": 7843.54,
+    "department": "Pharmacy",
+    "reason": "Underpayment",
+    "service_date": "2025-07-01",
+    "adjustments": [
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000143",
+    "claim_id": "C000700",
+    "patient_id": "P78115",
+    "amount_billed": 6560.28,
+    "amount_paid": 5535.57,
+    "department": "Surgery",
+    "reason": "Zero payment",
+    "service_date": "2024-02-18",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000144",
+    "claim_id": "C004421",
+    "patient_id": "P19135",
+    "amount_billed": 567.87,
+    "amount_paid": 2389.81,
+    "department": "Surgery",
+    "reason": "Zero payment",
+    "service_date": "2024-05-07",
+    "adjustments": [
+      "CO45",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000145",
+    "claim_id": "C003346",
+    "patient_id": "P17074",
+    "amount_billed": 6258.31,
+    "amount_paid": 5131.48,
+    "department": "Surgery",
+    "reason": "Zero payment",
+    "service_date": "2024-04-25",
+    "adjustments": [
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000146",
+    "claim_id": "C001092",
+    "patient_id": "P59887",
+    "amount_billed": 791.25,
+    "amount_paid": 7483.82,
+    "department": "ICU",
+    "reason": "Overpayment",
+    "service_date": "2025-06-30",
+    "adjustments": [
+      "PR1",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000147",
+    "claim_id": "C003121",
+    "patient_id": "P23700",
+    "amount_billed": 1134.13,
+    "amount_paid": 5140.04,
+    "department": "Lab",
+    "reason": "Overpayment",
+    "service_date": "2024-03-19",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000148",
+    "claim_id": "C004175",
+    "patient_id": "P67223",
+    "amount_billed": 5165.81,
+    "amount_paid": 3805.03,
+    "department": "Surgery",
+    "reason": "Bundled service",
+    "service_date": "2024-11-07",
+    "adjustments": [
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000149",
+    "claim_id": "C001882",
+    "patient_id": "P48490",
+    "amount_billed": 9058.21,
+    "amount_paid": 1113.7,
+    "department": "Surgery",
+    "reason": "Bundled service",
+    "service_date": "2025-02-17",
+    "adjustments": [
+      "CO45",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000150",
+    "claim_id": "C000901",
+    "patient_id": "P26955",
+    "amount_billed": 4695.85,
+    "amount_paid": 5618.86,
+    "department": "Surgery",
+    "reason": "Overpayment",
+    "service_date": "2024-10-08",
+    "adjustments": [
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000151",
+    "claim_id": "C001124",
+    "patient_id": "P24528",
+    "amount_billed": 4080.81,
+    "amount_paid": 5421.08,
+    "department": "Lab",
+    "reason": "Underpayment",
+    "service_date": "2024-10-11",
+    "adjustments": [
+      "OA18",
+      "PR1",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000152",
+    "claim_id": "C003747",
+    "patient_id": "P71454",
+    "amount_billed": 2117.83,
+    "amount_paid": 498.13,
+    "department": "Pharmacy",
+    "reason": "Bundled service",
+    "service_date": "2025-05-20",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000153",
+    "claim_id": "C003708",
+    "patient_id": "P59099",
+    "amount_billed": 5527.41,
+    "amount_paid": 3379.97,
+    "department": "Lab",
+    "reason": "Overpayment",
+    "service_date": "2024-06-23",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000154",
+    "claim_id": "C001540",
+    "patient_id": "P77508",
+    "amount_billed": 8593.76,
+    "amount_paid": 7357.85,
+    "department": "ICU",
+    "reason": "Bundled service",
+    "service_date": "2025-07-03",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000155",
+    "claim_id": "C004780",
+    "patient_id": "P97876",
+    "amount_billed": 7208.14,
+    "amount_paid": 1349.12,
+    "department": "ICU",
+    "reason": "Zero payment",
+    "service_date": "2025-02-22",
+    "adjustments": [
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000156",
+    "claim_id": "C003265",
+    "patient_id": "P98266",
+    "amount_billed": 5207.72,
+    "amount_paid": 546.45,
+    "department": "Lab",
+    "reason": "Underpayment",
+    "service_date": "2024-12-29",
+    "adjustments": [
+      "CO45",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000157",
+    "claim_id": "C002854",
+    "patient_id": "P10144",
+    "amount_billed": 1834.52,
+    "amount_paid": 1151.18,
+    "department": "Pharmacy",
+    "reason": "Underpayment",
+    "service_date": "2025-01-09",
+    "adjustments": [
+      "PR1",
+      "OA18",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000158",
+    "claim_id": "C001516",
+    "patient_id": "P85288",
+    "amount_billed": 358.39,
+    "amount_paid": 4129.96,
+    "department": "Radiology",
+    "reason": "Overpayment",
+    "service_date": "2024-04-24",
+    "adjustments": [
+      "PI204",
+      "OA18",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000159",
+    "claim_id": "C000398",
+    "patient_id": "P82008",
+    "amount_billed": 1386.79,
+    "amount_paid": 4984.42,
+    "department": "Surgery",
+    "reason": "Overpayment",
+    "service_date": "2024-09-18",
+    "adjustments": [
+      "CO45",
+      "PI204",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000160",
+    "claim_id": "C004100",
+    "patient_id": "P73835",
+    "amount_billed": 8834.39,
+    "amount_paid": 6996.26,
+    "department": "ER",
+    "reason": "Overpayment",
+    "service_date": "2024-03-17",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000161",
+    "claim_id": "C004527",
+    "patient_id": "P41673",
+    "amount_billed": 9895.86,
+    "amount_paid": 8427.94,
+    "department": "Lab",
+    "reason": "Overpayment",
+    "service_date": "2025-07-28",
+    "adjustments": [
+      "PR1",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000162",
+    "claim_id": "C004268",
+    "patient_id": "P62350",
+    "amount_billed": 3387.15,
+    "amount_paid": 5697.64,
+    "department": "ER",
+    "reason": "Zero payment",
+    "service_date": "2024-03-21",
+    "adjustments": [
+      "PR1",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000163",
+    "claim_id": "C003727",
+    "patient_id": "P22453",
+    "amount_billed": 6828.86,
+    "amount_paid": 19.85,
+    "department": "ER",
+    "reason": "Underpayment",
+    "service_date": "2024-11-24",
+    "adjustments": [
+      "OA18",
+      "PR1",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000164",
+    "claim_id": "C000921",
+    "patient_id": "P38027",
+    "amount_billed": 5253.2,
+    "amount_paid": 5434.43,
+    "department": "Surgery",
+    "reason": "Overpayment",
+    "service_date": "2024-09-27",
+    "adjustments": [
+      "OA18",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000165",
+    "claim_id": "C000022",
+    "patient_id": "P32095",
+    "amount_billed": 2079.13,
+    "amount_paid": 9357.39,
+    "department": "Radiology",
+    "reason": "Underpayment",
+    "service_date": "2024-01-24",
+    "adjustments": [
+      "OA18",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000166",
+    "claim_id": "C002649",
+    "patient_id": "P44800",
+    "amount_billed": 8019.44,
+    "amount_paid": 3778.5,
+    "department": "Lab",
+    "reason": "Bundled service",
+    "service_date": "2025-05-06",
+    "adjustments": [
+      "PI204",
+      "CO45",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000167",
+    "claim_id": "C003194",
+    "patient_id": "P22656",
+    "amount_billed": 1178.06,
+    "amount_paid": 3277.48,
+    "department": "ER",
+    "reason": "Overpayment",
+    "service_date": "2024-11-16",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000168",
+    "claim_id": "C001488",
+    "patient_id": "P97272",
+    "amount_billed": 7205.89,
+    "amount_paid": 7344.57,
+    "department": "Lab",
+    "reason": "Overpayment",
+    "service_date": "2024-04-06",
+    "adjustments": [
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000169",
+    "claim_id": "C004222",
+    "patient_id": "P51641",
+    "amount_billed": 4978.82,
+    "amount_paid": 9505.25,
+    "department": "ER",
+    "reason": "Bundled service",
+    "service_date": "2024-04-21",
+    "adjustments": [
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000170",
+    "claim_id": "C003970",
+    "patient_id": "P54104",
+    "amount_billed": 375.18,
+    "amount_paid": 7264.66,
+    "department": "ICU",
+    "reason": "Zero payment",
+    "service_date": "2025-05-25",
+    "adjustments": [
+      "CO45",
+      "OA18",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000171",
+    "claim_id": "C002080",
+    "patient_id": "P23854",
+    "amount_billed": 8787.82,
+    "amount_paid": 1189.57,
+    "department": "Lab",
+    "reason": "Zero payment",
+    "service_date": "2025-07-25",
+    "adjustments": [
+      "CO45",
+      "OA18",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000172",
+    "claim_id": "C004203",
+    "patient_id": "P46329",
+    "amount_billed": 7064.55,
+    "amount_paid": 7106.12,
+    "department": "Surgery",
+    "reason": "Overpayment",
+    "service_date": "2024-03-13",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000173",
+    "claim_id": "C002111",
+    "patient_id": "P10340",
+    "amount_billed": 2038.29,
+    "amount_paid": 8509.97,
+    "department": "Lab",
+    "reason": "Bundled service",
+    "service_date": "2025-06-18",
+    "adjustments": [
+      "OA18",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000174",
+    "claim_id": "C003184",
+    "patient_id": "P64745",
+    "amount_billed": 852.63,
+    "amount_paid": 4455.51,
+    "department": "Surgery",
+    "reason": "Overpayment",
+    "service_date": "2024-05-02",
+    "adjustments": [
+      "OA18",
+      "PI204",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000175",
+    "claim_id": "C004020",
+    "patient_id": "P43678",
+    "amount_billed": 3660.79,
+    "amount_paid": 7240.42,
+    "department": "ICU",
+    "reason": "Underpayment",
+    "service_date": "2025-01-07",
+    "adjustments": [
+      "PI204",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000176",
+    "claim_id": "C004306",
+    "patient_id": "P41186",
+    "amount_billed": 4407.84,
+    "amount_paid": 7800.26,
+    "department": "Lab",
+    "reason": "Zero payment",
+    "service_date": "2024-03-21",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000177",
+    "claim_id": "C002559",
+    "patient_id": "P52936",
+    "amount_billed": 3125.85,
+    "amount_paid": 4569.53,
+    "department": "ER",
+    "reason": "Overpayment",
+    "service_date": "2025-04-10",
+    "adjustments": [
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000178",
+    "claim_id": "C001249",
+    "patient_id": "P98324",
+    "amount_billed": 9575.43,
+    "amount_paid": 7399.18,
+    "department": "Lab",
+    "reason": "Underpayment",
+    "service_date": "2024-02-26",
+    "adjustments": [
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000179",
+    "claim_id": "C000921",
+    "patient_id": "P90094",
+    "amount_billed": 8464.03,
+    "amount_paid": 2837.9,
+    "department": "ICU",
+    "reason": "Zero payment",
+    "service_date": "2025-03-25",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000180",
+    "claim_id": "C004611",
+    "patient_id": "P26062",
+    "amount_billed": 3478.22,
+    "amount_paid": 3432.27,
+    "department": "ICU",
+    "reason": "Underpayment",
+    "service_date": "2025-01-17",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000181",
+    "claim_id": "C002464",
+    "patient_id": "P11864",
+    "amount_billed": 2720.42,
+    "amount_paid": 914.88,
+    "department": "Lab",
+    "reason": "Bundled service",
+    "service_date": "2024-04-16",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000182",
+    "claim_id": "C002073",
+    "patient_id": "P41312",
+    "amount_billed": 2110.03,
+    "amount_paid": 3281.1,
+    "department": "Lab",
+    "reason": "Overpayment",
+    "service_date": "2025-07-02",
+    "adjustments": [
+      "CO45",
+      "OA18",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000183",
+    "claim_id": "C002438",
+    "patient_id": "P81287",
+    "amount_billed": 710.23,
+    "amount_paid": 9753.62,
+    "department": "Surgery",
+    "reason": "Bundled service",
+    "service_date": "2025-03-31",
+    "adjustments": [
+      "PI204",
+      "OA18",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000184",
+    "claim_id": "C004420",
+    "patient_id": "P70093",
+    "amount_billed": 7495.07,
+    "amount_paid": 3221.94,
+    "department": "Surgery",
+    "reason": "Overpayment",
+    "service_date": "2024-08-13",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000185",
+    "claim_id": "C004141",
+    "patient_id": "P99865",
+    "amount_billed": 2694.13,
+    "amount_paid": 8975.2,
+    "department": "Surgery",
+    "reason": "Underpayment",
+    "service_date": "2024-02-18",
+    "adjustments": [
+      "CO45",
+      "PR1",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000186",
+    "claim_id": "C001716",
+    "patient_id": "P88262",
+    "amount_billed": 7858.67,
+    "amount_paid": 8587.72,
+    "department": "Radiology",
+    "reason": "Bundled service",
+    "service_date": "2024-01-15",
+    "adjustments": [
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000187",
+    "claim_id": "C000367",
+    "patient_id": "P72428",
+    "amount_billed": 6753.35,
+    "amount_paid": 5427.38,
+    "department": "Surgery",
+    "reason": "Bundled service",
+    "service_date": "2025-01-21",
+    "adjustments": [
+      "OA18",
+      "PI204",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000188",
+    "claim_id": "C003808",
+    "patient_id": "P43900",
+    "amount_billed": 8664.62,
+    "amount_paid": 5542.3,
+    "department": "Lab",
+    "reason": "Overpayment",
+    "service_date": "2024-11-15",
+    "adjustments": [
+      "CO45",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000189",
+    "claim_id": "C003806",
+    "patient_id": "P83239",
+    "amount_billed": 9412.54,
+    "amount_paid": 6590.36,
+    "department": "Radiology",
+    "reason": "Bundled service",
+    "service_date": "2024-01-30",
+    "adjustments": [
+      "PR1",
+      "OA18",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000190",
+    "claim_id": "C001339",
+    "patient_id": "P35578",
+    "amount_billed": 8748.98,
+    "amount_paid": 7119.88,
+    "department": "Radiology",
+    "reason": "Overpayment",
+    "service_date": "2024-02-10",
+    "adjustments": [
+      "PI204",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000191",
+    "claim_id": "C000587",
+    "patient_id": "P90801",
+    "amount_billed": 8104.5,
+    "amount_paid": 4628.08,
+    "department": "Pharmacy",
+    "reason": "Overpayment",
+    "service_date": "2024-01-04",
+    "adjustments": [
+      "OA18",
+      "PI204",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000192",
+    "claim_id": "C004515",
+    "patient_id": "P57201",
+    "amount_billed": 8438.06,
+    "amount_paid": 406.12,
+    "department": "ICU",
+    "reason": "Bundled service",
+    "service_date": "2025-06-16",
+    "adjustments": [
+      "PI204",
+      "CO45"
+    ]
+  },
+  {
+    "remit_id": "R000193",
+    "claim_id": "C000237",
+    "patient_id": "P91924",
+    "amount_billed": 145.99,
+    "amount_paid": 7677.64,
+    "department": "Radiology",
+    "reason": "Bundled service",
+    "service_date": "2025-03-11",
+    "adjustments": [
+      "CO45",
+      "PR1",
+      "PI204"
+    ]
+  },
+  {
+    "remit_id": "R000194",
+    "claim_id": "C000382",
+    "patient_id": "P93123",
+    "amount_billed": 9663.95,
+    "amount_paid": 9927.38,
+    "department": "ICU",
+    "reason": "Overpayment",
+    "service_date": "2025-06-13",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000195",
+    "claim_id": "C003065",
+    "patient_id": "P57030",
+    "amount_billed": 3547.51,
+    "amount_paid": 8094.1,
+    "department": "ER",
+    "reason": "Overpayment",
+    "service_date": "2025-05-11",
+    "adjustments": [
+      "OA18",
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000196",
+    "claim_id": "C000857",
+    "patient_id": "P68977",
+    "amount_billed": 6650.66,
+    "amount_paid": 917.15,
+    "department": "Lab",
+    "reason": "Bundled service",
+    "service_date": "2025-07-15",
+    "adjustments": [
+      "PR1",
+      "CO45",
+      "OA18"
+    ]
+  },
+  {
+    "remit_id": "R000197",
+    "claim_id": "C003557",
+    "patient_id": "P95024",
+    "amount_billed": 1390.95,
+    "amount_paid": 8650.48,
+    "department": "ER",
+    "reason": "Overpayment",
+    "service_date": "2024-11-12",
+    "adjustments": [
+      "PR1"
+    ]
+  },
+  {
+    "remit_id": "R000198",
+    "claim_id": "C001411",
+    "patient_id": "P31725",
+    "amount_billed": 9817.38,
+    "amount_paid": 2888.51,
+    "department": "Surgery",
+    "reason": "Bundled service",
+    "service_date": "2024-02-28",
+    "adjustments": []
+  },
+  {
+    "remit_id": "R000199",
+    "claim_id": "C003744",
+    "patient_id": "P28856",
+    "amount_billed": 9911.13,
+    "amount_paid": 818.53,
+    "department": "Lab",
+    "reason": "Bundled service",
+    "service_date": "2024-09-07",
+    "adjustments": [
+      "CO45",
+      "PI204",
+      "OA18"
+    ]
+  }
+]
