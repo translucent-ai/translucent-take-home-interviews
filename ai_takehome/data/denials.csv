@@ -1,0 +1,301 @@
+claim_id,patient_id,patient_age,payer,department,amount,denial_reason,status,service_date
+C000000,P10860,20,Aetna,Ophthalmology,156.57,Bundled service,Denied,2024-06-12
+C000001,P67924,73,Medicaid,Orthopedics,2849.46,Invalid CPT,Paid,2024-09-08
+C000002,P62575,16,Humana,Oncology,2967.62,Missing info,Denied,2023-05-12
+C000003,P84000,80,Humana,Ophthalmology,1349.1,Out of network,Denied,2024-01-25
+C000004,P18719,17,Medicaid,Oncology,781.58,Bundled service,Pending,2023-01-29
+C000005,P41395,18,Humana,Gastroenterology,107.11,Bundled service,Pending,2023-07-08
+C000006,P16115,83,Cigna,Neurology,1737.54,Missing info,Denied,2023-07-31
+C000007,P78493,57,Blue Cross,Neurology,3275.9,Out of network,Denied,2023-03-01
+C000008,P58709,39,Humana,Dermatology,142.44,Duplicate claim,Appealed,2024-01-06
+C000009,P63700,83,Aetna,Gastroenterology,4876.41,Timely filing,Paid,2024-01-22
+C000010,P86022,63,United,Cardiology,2945.39,Timely filing,Paid,2024-08-03
+C000011,P96265,0,Aetna,Oncology,4950.71,Duplicate claim,Pending,2024-11-21
+C000012,P73454,78,Aetna,Pediatrics,1027.63,Bundled service,Denied,2023-04-14
+C000013,P19519,59,Medicaid,Dermatology,750.31,Bundled service,Appealed,2024-05-07
+C000014,P26444,39,Humana,Dermatology,2758.52,Coding error,Denied,2024-04-22
+C000015,P21533,32,Cigna,Oncology,4654.65,Expired coverage,Paid,2023-03-16
+C000016,P51250,6,United,Gastroenterology,4484.06,Expired coverage,Denied,2024-04-07
+C000017,P80386,11,Aetna,Dermatology,4466.26,Coding error,Appealed,2023-12-25
+C000018,P13742,89,Humana,Ophthalmology,1456.94,Invalid CPT,Appealed,2024-03-06
+C000019,P17339,50,Humana,Cardiology,4988.09,Missing info,Appealed,2023-11-19
+C000020,P46665,73,Humana,Gastroenterology,3817.44,Medical necessity,Denied,2025-05-25
+C000021,P38618,38,Cigna,Cardiology,4323.76,Missing info,Pending,2025-04-11
+C000022,P76954,56,United,Radiology,4286.63,Medical necessity,Pending,2023-09-19
+C000023,P49977,48,Medicare,Radiology,1736.38,Authorization missing,Paid,2024-10-30
+C000024,P33685,8,Medicare,Orthopedics,831.62,Expired coverage,Denied,2023-01-03
+C000025,P45983,24,Cigna,Cardiology,4431.76,Expired coverage,Pending,2024-11-14
+C000026,P33094,19,Humana,Orthopedics,434.2,Missing info,Appealed,2023-11-01
+C000027,P51998,42,Blue Cross,Neurology,927.18,Out of network,Denied,2024-01-28
+C000028,P56662,25,Blue Cross,Ophthalmology,3195.24,Expired coverage,Paid,2024-01-22
+C000029,P55612,54,Medicaid,Gastroenterology,1350.4,Expired coverage,Pending,2024-02-10
+C000030,P52496,68,Humana,Pediatrics,3576.64,Duplicate claim,Denied,2023-04-09
+C000031,P76593,16,Medicaid,Oncology,4500.02,Medical necessity,Paid,2025-04-07
+C000032,P46598,79,Blue Cross,Cardiology,1799.81,Medical necessity,Paid,2023-07-20
+C000033,P66606,74,Medicaid,Orthopedics,3636.86,Out of network,Denied,2023-05-08
+C000034,P72716,57,Blue Cross,Gastroenterology,3067.74,Expired coverage,Appealed,2024-02-08
+C000035,P77119,62,Blue Cross,Gastroenterology,3919.08,Invalid CPT,Appealed,2024-11-23
+C000036,P51379,64,Blue Cross,Pediatrics,295.55,Authorization missing,Paid,2023-04-06
+C000037,P70160,53,Cigna,Neurology,1292.54,Medical necessity,Denied,2025-03-08
+C000038,P24724,10,United,Ophthalmology,4727.14,Bundled service,Pending,2024-04-05
+C000039,P12440,57,Blue Cross,Oncology,4606.49,Authorization missing,Denied,2024-11-16
+C000040,P54747,60,Medicaid,Radiology,430.26,Duplicate claim,Pending,2023-09-25
+C000041,P51114,12,Cigna,Cardiology,4936.22,Authorization missing,Pending,2024-03-07
+C000042,P43023,82,United,Oncology,2464.91,Missing info,Pending,2025-01-24
+C000043,P50285,58,Medicaid,Gastroenterology,2345.42,Bundled service,Pending,2025-01-08
+C000044,P74656,53,Cigna,Ophthalmology,1364.3,Missing info,Paid,2023-07-02
+C000045,P27099,67,Blue Cross,Ophthalmology,462.87,Expired coverage,Pending,2023-05-06
+C000046,P17918,36,Cigna,Radiology,261.89,Coding error,Denied,2023-06-07
+C000047,P60112,20,Medicare,Cardiology,3474.81,Duplicate claim,Denied,2023-11-19
+C000048,P61933,55,Medicaid,Gastroenterology,4251.46,Duplicate claim,Denied,2024-07-22
+C000049,P74804,36,Blue Cross,Dermatology,3237.89,Expired coverage,Appealed,2023-05-19
+C000050,P24142,62,Humana,Ophthalmology,2901.24,Invalid CPT,Appealed,2025-02-03
+C000051,P55213,53,Aetna,Orthopedics,188.15,Duplicate claim,Appealed,2025-06-28
+C000052,P29738,63,Medicare,Oncology,3071.44,Expired coverage,Pending,2023-12-20
+C000053,P16164,62,United,Pediatrics,3420.17,Duplicate claim,Paid,2025-01-29
+C000054,P17902,5,Aetna,Cardiology,1535.24,Timely filing,Paid,2025-02-19
+C000055,P24083,1,Humana,Pediatrics,4392.24,Coding error,Pending,2024-03-08
+C000056,P26358,84,Aetna,Dermatology,4164.23,Bundled service,Appealed,2024-06-21
+C000057,P52390,15,Humana,Pediatrics,1416.47,Duplicate claim,Denied,2023-07-21
+C000058,P69040,36,Aetna,Oncology,2253.31,Bundled service,Paid,2023-11-17
+C000059,P48226,66,Medicare,Pediatrics,388.76,Out of network,Pending,2023-11-14
+C000060,P33530,23,Humana,Neurology,4435.63,Coding error,Appealed,2023-10-07
+C000061,P19755,71,Humana,Oncology,220.46,Missing info,Paid,2024-02-27
+C000062,P62868,63,Blue Cross,Oncology,2898.41,Out of network,Appealed,2023-01-30
+C000063,P72180,21,Medicare,Pediatrics,2476.03,Timely filing,Paid,2024-04-30
+C000064,P55258,33,United,Oncology,1390.88,Expired coverage,Denied,2023-07-11
+C000065,P16303,1,Medicaid,Orthopedics,1602.21,Expired coverage,Denied,2024-06-17
+C000066,P90916,29,United,Pediatrics,2636.98,Out of network,Denied,2025-06-20
+C000067,P79344,29,Humana,Oncology,3976.79,Out of network,Denied,2023-07-17
+C000068,P28977,45,Cigna,Cardiology,3838.38,Duplicate claim,Pending,2024-10-19
+C000069,P75910,61,Blue Cross,Oncology,3609.59,Timely filing,Appealed,2024-12-31
+C000070,P69664,61,Blue Cross,Pediatrics,4809.3,Timely filing,Appealed,2024-01-27
+C000071,P29498,79,Cigna,Radiology,272.7,Timely filing,Paid,2024-03-09
+C000072,P46578,33,Cigna,Orthopedics,2562.68,Duplicate claim,Paid,2023-09-23
+C000073,P89233,31,Humana,Gastroenterology,774.7,Invalid CPT,Denied,2024-10-12
+C000074,P76598,51,Humana,Cardiology,1173.05,Authorization missing,Denied,2023-11-19
+C000075,P77761,36,Humana,Radiology,1818.18,Coding error,Paid,2023-10-20
+C000076,P64114,47,Aetna,Oncology,1957.62,Out of network,Appealed,2023-09-29
+C000077,P67911,38,Medicaid,Dermatology,3228.54,Invalid CPT,Pending,2023-07-20
+C000078,P47141,88,United,Gastroenterology,1119.68,Authorization missing,Appealed,2024-12-21
+C000079,P87280,60,Medicare,Neurology,2135.34,Out of network,Pending,2025-07-31
+C000080,P21266,32,Medicare,Oncology,4892.7,Missing info,Appealed,2024-01-17
+C000081,P85695,64,Blue Cross,Ophthalmology,4645.15,Missing info,Paid,2024-01-14
+C000082,P89151,17,United,Pediatrics,2165.69,Coding error,Appealed,2024-06-05
+C000083,P42246,84,Humana,Gastroenterology,2700.73,Invalid CPT,Denied,2024-12-09
+C000084,P26951,11,Medicaid,Dermatology,1315.74,Authorization missing,Pending,2025-06-03
+C000085,P45357,76,United,Oncology,1180.97,Duplicate claim,Denied,2023-06-16
+C000086,P93816,5,Cigna,Orthopedics,2405.66,Medical necessity,Denied,2024-06-08
+C000087,P90244,38,Blue Cross,Gastroenterology,4336.89,Authorization missing,Appealed,2024-01-13
+C000088,P31819,27,Medicare,Pediatrics,992.18,Out of network,Appealed,2025-05-13
+C000089,P43566,43,United,Ophthalmology,1624.82,Expired coverage,Denied,2025-06-12
+C000090,P86642,16,Aetna,Pediatrics,1654.92,Invalid CPT,Paid,2023-08-23
+C000091,P16364,54,Cigna,Dermatology,1096.83,Out of network,Paid,2023-07-08
+C000092,P42389,54,Aetna,Radiology,3546.83,Bundled service,Pending,2024-03-26
+C000093,P56524,51,Aetna,Neurology,1928.95,Bundled service,Paid,2023-04-30
+C000094,P41905,57,Medicaid,Oncology,2892.04,Authorization missing,Appealed,2024-12-01
+C000095,P62481,75,United,Gastroenterology,2081.14,Missing info,Appealed,2023-10-02
+C000096,P89076,13,Aetna,Oncology,4496.34,Out of network,Paid,2024-08-14
+C000097,P53678,70,Cigna,Cardiology,4591.2,Medical necessity,Paid,2024-12-05
+C000098,P41575,26,Medicaid,Gastroenterology,4438.53,Authorization missing,Pending,2023-09-17
+C000099,P80351,29,United,Orthopedics,2230.44,Duplicate claim,Pending,2024-07-28
+C000100,P51794,67,Aetna,Orthopedics,274.55,Timely filing,Appealed,2023-11-09
+C000101,P37778,50,Cigna,Ophthalmology,2407.6,Missing info,Paid,2023-03-14
+C000102,P55509,49,United,Orthopedics,1336.03,Coding error,Paid,2023-02-19
+C000103,P39658,28,Blue Cross,Dermatology,3523.33,Missing info,Pending,2023-08-05
+C000104,P92034,71,Aetna,Neurology,3537.11,Invalid CPT,Appealed,2023-07-31
+C000105,P32434,70,Humana,Dermatology,1581.78,Expired coverage,Pending,2024-10-06
+C000106,P40541,84,Cigna,Cardiology,800.53,Medical necessity,Denied,2023-10-16
+C000107,P91274,22,Medicare,Radiology,841.45,Bundled service,Pending,2025-05-22
+C000108,P74637,17,Humana,Cardiology,1973.48,Bundled service,Pending,2024-09-07
+C000109,P71853,41,United,Dermatology,581.65,Duplicate claim,Pending,2025-07-15
+C000110,P48902,65,Medicare,Neurology,1220.95,Out of network,Pending,2023-02-07
+C000111,P84642,22,Medicare,Oncology,221.07,Expired coverage,Appealed,2025-01-18
+C000112,P94872,13,Humana,Oncology,4136.55,Expired coverage,Denied,2024-11-23
+C000113,P52152,63,United,Oncology,1617.61,Missing info,Denied,2024-03-17
+C000114,P23992,25,Cigna,Cardiology,3140.63,Out of network,Appealed,2024-02-19
+C000115,P39502,52,Cigna,Ophthalmology,2613.9,Duplicate claim,Paid,2024-08-12
+C000116,P94574,86,Blue Cross,Radiology,3347.3,Expired coverage,Paid,2024-09-04
+C000117,P26131,85,Cigna,Orthopedics,308.08,Out of network,Denied,2023-05-23
+C000118,P80695,50,Cigna,Dermatology,4044.17,Medical necessity,Denied,2023-02-18
+C000119,P44009,83,Medicaid,Cardiology,1071.94,Expired coverage,Pending,2024-06-12
+C000120,P98204,32,Blue Cross,Gastroenterology,1198.19,Authorization missing,Pending,2025-02-27
+C000121,P86569,7,United,Cardiology,3196.32,Coding error,Denied,2023-04-19
+C000122,P26244,71,Medicaid,Ophthalmology,4487.19,Out of network,Paid,2024-12-12
+C000123,P82551,48,Medicaid,Radiology,2189.23,Bundled service,Appealed,2023-09-06
+C000124,P47684,77,Medicare,Pediatrics,169.26,Invalid CPT,Pending,2023-08-07
+C000125,P91963,80,United,Oncology,4256.55,Expired coverage,Paid,2024-07-05
+C000126,P85864,43,Humana,Gastroenterology,4014.49,Medical necessity,Pending,2024-12-04
+C000127,P15356,43,Aetna,Orthopedics,457.65,Coding error,Paid,2023-04-05
+C000128,P24140,54,Medicaid,Dermatology,1467.48,Duplicate claim,Denied,2024-07-25
+C000129,P68743,47,Medicare,Ophthalmology,2760.23,Invalid CPT,Appealed,2024-02-25
+C000130,P81963,21,Blue Cross,Gastroenterology,3903.1,Duplicate claim,Denied,2023-07-19
+C000131,P98113,7,Blue Cross,Neurology,1733.1,Timely filing,Appealed,2024-11-09
+C000132,P38588,77,United,Neurology,1454.6,Invalid CPT,Denied,2023-06-10
+C000133,P70422,30,Medicare,Orthopedics,4897.71,Timely filing,Paid,2023-03-04
+C000134,P24388,78,Medicaid,Gastroenterology,281.05,Out of network,Appealed,2023-10-05
+C000135,P66629,64,Medicaid,Oncology,2982.81,Medical necessity,Pending,2023-10-11
+C000136,P22250,1,Medicare,Radiology,312.74,Out of network,Denied,2024-11-26
+C000137,P60738,23,Aetna,Radiology,2173.48,Authorization missing,Appealed,2023-07-30
+C000138,P20420,65,Aetna,Orthopedics,607.97,Medical necessity,Denied,2023-09-09
+C000139,P96395,29,Humana,Orthopedics,3549.4,Expired coverage,Pending,2025-03-11
+C000140,P46159,66,Medicaid,Oncology,2705.3,Duplicate claim,Appealed,2025-06-18
+C000141,P53861,74,Medicare,Oncology,4472.76,Authorization missing,Paid,2024-04-13
+C000142,P97615,70,Medicare,Pediatrics,3628.26,Bundled service,Paid,2025-07-07
+C000143,P88876,52,Aetna,Radiology,3800.29,Invalid CPT,Paid,2025-02-05
+C000144,P70708,75,Cigna,Radiology,1929.47,Out of network,Pending,2024-10-31
+C000145,P14658,12,Medicaid,Pediatrics,3011.37,Authorization missing,Paid,2024-08-28
+C000146,P94053,26,Medicaid,Ophthalmology,2177.04,Timely filing,Denied,2024-12-20
+C000147,P19388,47,Medicaid,Oncology,1001.44,Invalid CPT,Appealed,2024-05-27
+C000148,P31698,63,Blue Cross,Radiology,1876.64,Duplicate claim,Paid,2024-12-07
+C000149,P79482,28,Aetna,Ophthalmology,4941.58,Authorization missing,Pending,2024-01-05
+C000150,P36854,40,Cigna,Ophthalmology,2495.59,Invalid CPT,Denied,2024-12-10
+C000151,P83846,64,Medicaid,Radiology,4437.21,Timely filing,Paid,2024-06-12
+C000152,P73405,32,Humana,Pediatrics,715.15,Invalid CPT,Denied,2023-10-20
+C000153,P91941,40,Cigna,Orthopedics,2048.04,Missing info,Paid,2024-03-11
+C000154,P15854,50,United,Pediatrics,2478.13,Bundled service,Pending,2023-08-11
+C000155,P99619,75,Aetna,Dermatology,2885.76,Expired coverage,Appealed,2025-01-15
+C000156,P48556,65,Blue Cross,Orthopedics,4276.58,Duplicate claim,Paid,2025-01-07
+C000157,P51313,39,United,Radiology,1493.01,Out of network,Denied,2023-07-12
+C000158,P23812,77,Cigna,Neurology,1118.22,Coding error,Pending,2024-12-07
+C000159,P74861,59,Cigna,Oncology,4490.15,Missing info,Pending,2024-06-09
+C000160,P52703,68,Humana,Pediatrics,71.6,Authorization missing,Appealed,2023-03-02
+C000161,P59753,50,United,Neurology,4063.0,Medical necessity,Appealed,2025-04-28
+C000162,P26842,42,Medicare,Pediatrics,1362.32,Missing info,Paid,2023-12-16
+C000163,P76575,27,United,Dermatology,4463.77,Duplicate claim,Appealed,2024-03-26
+C000164,P50607,81,Aetna,Dermatology,2649.61,Expired coverage,Appealed,2024-08-31
+C000165,P52515,13,Medicare,Gastroenterology,1585.66,Bundled service,Paid,2024-07-23
+C000166,P76785,60,Medicare,Radiology,129.3,Coding error,Appealed,2024-11-23
+C000167,P50075,16,Humana,Ophthalmology,81.13,Bundled service,Paid,2024-05-31
+C000168,P14512,31,United,Cardiology,3332.71,Timely filing,Appealed,2023-08-20
+C000169,P29404,44,Cigna,Neurology,4649.01,Timely filing,Appealed,2023-09-13
+C000170,P24422,27,Aetna,Ophthalmology,2932.82,Invalid CPT,Paid,2023-05-24
+C000171,P47165,67,United,Oncology,1775.18,Authorization missing,Paid,2025-03-02
+C000172,P17145,48,Cigna,Radiology,3546.99,Expired coverage,Appealed,2025-01-16
+C000173,P40613,54,Humana,Orthopedics,4191.93,Medical necessity,Pending,2024-05-03
+C000174,P49055,6,Blue Cross,Ophthalmology,3408.55,Authorization missing,Paid,2024-03-18
+C000175,P69650,9,Blue Cross,Neurology,884.34,Authorization missing,Appealed,2024-04-27
+C000176,P61710,27,Medicare,Radiology,3113.77,Out of network,Paid,2023-05-29
+C000177,P95205,38,Cigna,Cardiology,1096.15,Coding error,Denied,2025-05-12
+C000178,P58885,11,Medicare,Orthopedics,4377.88,Out of network,Pending,2023-07-24
+C000179,P75450,67,Medicaid,Neurology,2969.54,Out of network,Appealed,2025-02-08
+C000180,P19003,6,Medicaid,Pediatrics,1513.56,Expired coverage,Pending,2024-07-12
+C000181,P55797,2,Cigna,Gastroenterology,913.91,Missing info,Pending,2025-05-07
+C000182,P80335,39,Cigna,Dermatology,694.47,Timely filing,Paid,2024-02-28
+C000183,P57458,58,United,Cardiology,4996.13,Authorization missing,Paid,2023-12-13
+C000184,P67355,83,Medicare,Gastroenterology,3031.42,Authorization missing,Denied,2024-01-27
+C000185,P23088,43,Medicaid,Cardiology,1713.6,Authorization missing,Paid,2023-12-12
+C000186,P73007,26,Blue Cross,Cardiology,452.45,Duplicate claim,Paid,2024-07-05
+C000187,P99474,86,Blue Cross,Ophthalmology,3608.18,Duplicate claim,Denied,2025-07-17
+C000188,P35012,61,United,Ophthalmology,330.97,Authorization missing,Denied,2025-05-21
+C000189,P56352,58,Medicaid,Pediatrics,3976.23,Out of network,Paid,2025-04-08
+C000190,P20506,51,Aetna,Oncology,3457.34,Missing info,Pending,2023-02-08
+C000191,P76225,86,Blue Cross,Neurology,2407.34,Coding error,Paid,2023-04-20
+C000192,P23542,87,Cigna,Gastroenterology,2615.33,Timely filing,Appealed,2025-01-29
+C000193,P74435,84,Humana,Ophthalmology,4695.72,Invalid CPT,Pending,2025-07-08
+C000194,P97268,21,Medicare,Ophthalmology,2648.4,Authorization missing,Pending,2024-04-15
+C000195,P90218,66,United,Orthopedics,1837.44,Expired coverage,Appealed,2025-07-26
+C000196,P22596,6,Cigna,Neurology,3211.8,Coding error,Paid,2025-07-04
+C000197,P22424,11,Aetna,Radiology,2265.6,Bundled service,Paid,2024-07-04
+C000198,P52584,17,Humana,Oncology,961.15,Timely filing,Pending,2024-05-10
+C000199,P66472,53,Humana,Cardiology,2511.34,Coding error,Paid,2023-01-10
+C000200,P61139,39,Humana,Ophthalmology,4514.06,Expired coverage,Paid,2024-02-06
+C000201,P71446,74,Medicaid,Dermatology,1200.29,Timely filing,Denied,2024-05-02
+C000202,P79001,83,Cigna,Radiology,461.09,Coding error,Pending,2024-06-07
+C000203,P42619,63,Medicaid,Pediatrics,1055.35,Authorization missing,Denied,2024-06-05
+C000204,P39024,27,United,Ophthalmology,2226.17,Timely filing,Denied,2025-04-03
+C000205,P90118,6,United,Dermatology,1915.12,Out of network,Paid,2023-06-11
+C000206,P13487,40,Medicaid,Orthopedics,215.32,Authorization missing,Appealed,2025-01-21
+C000207,P71111,4,United,Pediatrics,1355.7,Missing info,Appealed,2025-03-05
+C000208,P79697,28,Humana,Cardiology,201.04,Authorization missing,Denied,2024-03-12
+C000209,P69180,14,Cigna,Dermatology,435.82,Coding error,Paid,2023-01-02
+C000210,P28322,55,Blue Cross,Ophthalmology,2100.21,Medical necessity,Pending,2024-10-09
+C000211,P12930,50,United,Pediatrics,4177.78,Coding error,Paid,2024-06-30
+C000212,P80518,77,Cigna,Radiology,2519.94,Missing info,Pending,2023-04-17
+C000213,P70409,82,Humana,Dermatology,58.65,Missing info,Pending,2024-01-01
+C000214,P41465,52,Medicaid,Dermatology,4574.17,Expired coverage,Paid,2023-06-26
+C000215,P10263,48,Medicare,Cardiology,4703.7,Bundled service,Paid,2024-02-19
+C000216,P86189,64,Medicare,Gastroenterology,4215.45,Medical necessity,Pending,2023-05-30
+C000217,P24685,27,Medicare,Oncology,1583.64,Authorization missing,Paid,2024-02-23
+C000218,P37784,64,Medicaid,Orthopedics,2633.29,Expired coverage,Appealed,2025-07-11
+C000219,P75143,56,United,Ophthalmology,4428.36,Expired coverage,Paid,2024-09-14
+C000220,P50731,8,Aetna,Dermatology,4768.81,Duplicate claim,Denied,2024-05-28
+C000221,P13135,60,United,Gastroenterology,3409.18,Out of network,Denied,2024-02-16
+C000222,P28033,39,Blue Cross,Dermatology,4951.54,Out of network,Paid,2023-06-12
+C000223,P94249,5,Humana,Radiology,2951.84,Authorization missing,Appealed,2024-07-24
+C000224,P40149,57,Blue Cross,Dermatology,4436.17,Missing info,Pending,2024-02-18
+C000225,P71591,43,Cigna,Radiology,1364.37,Out of network,Denied,2023-09-02
+C000226,P53075,75,Aetna,Pediatrics,3162.8,Medical necessity,Pending,2024-05-14
+C000227,P98635,89,Medicare,Ophthalmology,2084.35,Expired coverage,Appealed,2024-12-29
+C000228,P50868,87,United,Oncology,4820.31,Missing info,Appealed,2023-10-27
+C000229,P45861,74,Cigna,Gastroenterology,2638.51,Duplicate claim,Appealed,2023-02-06
+C000230,P45242,79,Aetna,Ophthalmology,540.08,Medical necessity,Pending,2023-02-05
+C000231,P86334,88,United,Orthopedics,4604.73,Authorization missing,Pending,2024-05-09
+C000232,P20350,28,United,Dermatology,854.49,Duplicate claim,Denied,2023-10-18
+C000233,P56813,16,United,Gastroenterology,3152.5,Coding error,Denied,2023-06-17
+C000234,P78861,0,Medicaid,Oncology,2001.26,Medical necessity,Pending,2025-05-02
+C000235,P54469,34,Blue Cross,Gastroenterology,1950.27,Authorization missing,Pending,2023-09-01
+C000236,P84170,14,Humana,Gastroenterology,1920.26,Out of network,Denied,2024-02-05
+C000237,P97590,32,Aetna,Dermatology,2610.05,Expired coverage,Pending,2025-03-29
+C000238,P15850,72,Humana,Radiology,2101.23,Invalid CPT,Appealed,2023-06-07
+C000239,P23177,83,Medicare,Pediatrics,1945.66,Expired coverage,Paid,2024-11-20
+C000240,P85195,79,Medicare,Ophthalmology,2168.54,Medical necessity,Denied,2023-10-26
+C000241,P16129,4,Blue Cross,Cardiology,444.57,Coding error,Denied,2023-07-29
+C000242,P13307,26,United,Cardiology,4963.12,Invalid CPT,Pending,2023-04-25
+C000243,P95672,16,Blue Cross,Dermatology,3973.53,Out of network,Appealed,2025-04-29
+C000244,P99204,30,Aetna,Gastroenterology,506.26,Invalid CPT,Pending,2023-08-08
+C000245,P75385,7,Blue Cross,Neurology,3476.53,Authorization missing,Pending,2023-03-01
+C000246,P95900,13,Humana,Ophthalmology,1767.79,Duplicate claim,Denied,2023-06-08
+C000247,P29707,90,United,Ophthalmology,2417.16,Authorization missing,Paid,2025-03-01
+C000248,P86010,16,Aetna,Oncology,1728.69,Out of network,Appealed,2023-12-25
+C000249,P40634,75,Blue Cross,Cardiology,420.2,Duplicate claim,Paid,2024-09-19
+C000250,P40241,79,Cigna,Ophthalmology,1626.56,Duplicate claim,Paid,2023-07-03
+C000251,P37113,4,United,Cardiology,3967.45,Duplicate claim,Paid,2024-08-05
+C000252,P81991,64,Aetna,Ophthalmology,3004.96,Invalid CPT,Pending,2025-05-24
+C000253,P69653,10,United,Neurology,2732.08,Missing info,Paid,2023-03-23
+C000254,P41194,16,Blue Cross,Radiology,3725.9,Invalid CPT,Paid,2024-02-01
+C000255,P68428,36,Blue Cross,Ophthalmology,2663.9,Expired coverage,Appealed,2024-07-28
+C000256,P64930,14,Medicare,Neurology,4253.42,Missing info,Appealed,2023-12-31
+C000257,P34418,47,Medicare,Radiology,2892.77,Missing info,Pending,2024-12-30
+C000258,P25941,23,Medicare,Pediatrics,2249.28,Medical necessity,Pending,2025-07-11
+C000259,P48622,42,Blue Cross,Dermatology,2896.71,Bundled service,Denied,2023-11-11
+C000260,P11083,20,Cigna,Pediatrics,4145.77,Out of network,Pending,2023-04-01
+C000261,P35055,58,Aetna,Dermatology,226.13,Out of network,Paid,2024-10-15
+C000262,P58158,11,Medicaid,Orthopedics,832.27,Expired coverage,Pending,2023-10-14
+C000263,P87167,89,Blue Cross,Neurology,288.09,Expired coverage,Denied,2025-01-26
+C000264,P89955,65,Aetna,Cardiology,1799.17,Timely filing,Appealed,2024-08-06
+C000265,P82593,62,United,Radiology,1683.61,Out of network,Appealed,2023-01-30
+C000266,P51406,85,Humana,Oncology,1732.05,Missing info,Paid,2025-04-02
+C000267,P66668,0,Humana,Neurology,934.75,Invalid CPT,Paid,2024-07-17
+C000268,P15437,86,Medicaid,Ophthalmology,1182.54,Duplicate claim,Pending,2024-01-04
+C000269,P16521,44,Cigna,Pediatrics,4782.58,Out of network,Paid,2024-01-06
+C000270,P99343,45,Aetna,Cardiology,2310.93,Coding error,Appealed,2023-04-17
+C000271,P22390,11,Humana,Cardiology,1542.49,Bundled service,Appealed,2024-01-20
+C000272,P97291,82,Blue Cross,Ophthalmology,4537.13,Timely filing,Pending,2024-12-08
+C000273,P75913,24,United,Cardiology,2155.98,Missing info,Pending,2024-03-20
+C000274,P16839,65,Cigna,Pediatrics,3481.89,Coding error,Paid,2024-09-17
+C000275,P48515,56,Blue Cross,Ophthalmology,3462.34,Medical necessity,Paid,2023-04-04
+C000276,P84035,69,Medicare,Dermatology,1023.27,Authorization missing,Appealed,2024-12-13
+C000277,P51143,47,Aetna,Dermatology,4353.17,Coding error,Appealed,2023-12-04
+C000278,P74254,80,Cigna,Neurology,1562.25,Out of network,Appealed,2024-08-24
+C000279,P84149,87,United,Pediatrics,4868.87,Duplicate claim,Paid,2023-02-21
+C000280,P98374,28,Cigna,Dermatology,1042.57,Duplicate claim,Pending,2024-10-28
+C000281,P36372,32,Humana,Orthopedics,815.87,Authorization missing,Pending,2024-08-21
+C000282,P58814,73,Medicare,Cardiology,3063.8,Timely filing,Pending,2023-03-02
+C000283,P32112,22,Cigna,Cardiology,1555.08,Duplicate claim,Pending,2023-12-05
+C000284,P62232,27,Humana,Neurology,471.87,Coding error,Appealed,2023-08-07
+C000285,P37219,1,United,Cardiology,4375.71,Out of network,Paid,2023-09-26
+C000286,P89325,88,United,Neurology,4686.23,Timely filing,Appealed,2023-03-05
+C000287,P18559,65,Aetna,Neurology,479.47,Missing info,Denied,2024-11-12
+C000288,P21901,55,Blue Cross,Gastroenterology,3927.19,Missing info,Pending,2024-08-25
+C000289,P41164,19,Humana,Cardiology,2023.26,Out of network,Denied,2023-07-30
+C000290,P36614,48,Cigna,Pediatrics,2527.92,Coding error,Appealed,2025-06-28
+C000291,P67077,63,Blue Cross,Radiology,756.19,Duplicate claim,Denied,2025-01-30
+C000292,P30797,45,Aetna,Oncology,2973.6,Expired coverage,Denied,2023-07-19
+C000293,P49645,46,Cigna,Orthopedics,1528.68,Medical necessity,Pending,2023-05-23
+C000294,P96489,25,Medicaid,Cardiology,4393.96,Out of network,Pending,2024-12-12
+C000295,P91510,74,Cigna,Orthopedics,503.85,Out of network,Appealed,2025-02-07
+C000296,P43099,87,Medicaid,Oncology,1822.23,Timely filing,Paid,2023-10-08
+C000297,P56886,39,Aetna,Oncology,1139.71,Authorization missing,Pending,2024-08-13
+C000298,P24866,72,Cigna,Neurology,3757.47,Invalid CPT,Denied,2024-08-06
+C000299,P18503,31,Medicaid,Dermatology,4447.62,Bundled service,Paid,2024-04-23
