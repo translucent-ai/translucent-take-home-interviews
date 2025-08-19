@@ -1,0 +1,962 @@
+[
+  {
+    "id": "D00000",
+    "department": "Radiology",
+    "amount": 2707.05,
+    "reason": "Expired coverage",
+    "date": "2024-09-13",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00001",
+    "department": "Orthopedics",
+    "amount": 634.63,
+    "reason": "Expired coverage",
+    "date": "2024-12-22",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00002",
+    "department": "Oncology",
+    "amount": 1456.29,
+    "reason": "Authorization missing",
+    "date": "2025-02-27",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00003",
+    "department": "Radiology",
+    "amount": 2479.85,
+    "reason": "Missing info",
+    "date": "2024-11-18",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00004",
+    "department": "Neurology",
+    "amount": 691.03,
+    "reason": "Coding error",
+    "date": "2024-04-26",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00005",
+    "department": "Oncology",
+    "amount": 2420.57,
+    "reason": "Expired coverage",
+    "date": "2025-07-25",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00006",
+    "department": "Neurology",
+    "amount": 3636.05,
+    "reason": "Invalid CPT",
+    "date": "2025-03-01",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00007",
+    "department": "Oncology",
+    "amount": 1629.58,
+    "reason": "Coding error",
+    "date": "2024-10-08",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00008",
+    "department": "Orthopedics",
+    "amount": 2184.18,
+    "reason": "Expired coverage",
+    "date": "2024-09-26",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00009",
+    "department": "Oncology",
+    "amount": 2665.95,
+    "reason": "Authorization missing",
+    "date": "2025-05-14",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00010",
+    "department": "Cardiology",
+    "amount": 452.45,
+    "reason": "Expired coverage",
+    "date": "2024-12-13",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00011",
+    "department": "Pediatrics",
+    "amount": 1445.98,
+    "reason": "Out of network",
+    "date": "2024-07-06",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00012",
+    "department": "Oncology",
+    "amount": 2926.04,
+    "reason": "Invalid CPT",
+    "date": "2024-07-15",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00013",
+    "department": "Pediatrics",
+    "amount": 1565.41,
+    "reason": "Out of network",
+    "date": "2025-01-29",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00014",
+    "department": "Pediatrics",
+    "amount": 3564.3,
+    "reason": "Authorization missing",
+    "date": "2025-04-26",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00015",
+    "department": "Pediatrics",
+    "amount": 696.93,
+    "reason": "Invalid CPT",
+    "date": "2025-07-13",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00016",
+    "department": "Orthopedics",
+    "amount": 139.67,
+    "reason": "Authorization missing",
+    "date": "2024-10-26",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00017",
+    "department": "Orthopedics",
+    "amount": 313.96,
+    "reason": "Missing info",
+    "date": "2024-01-01",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00018",
+    "department": "Oncology",
+    "amount": 3846.29,
+    "reason": "Invalid CPT",
+    "date": "2024-01-23",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00019",
+    "department": "Pediatrics",
+    "amount": 494.97,
+    "reason": "Out of network",
+    "date": "2025-05-11",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00020",
+    "department": "Radiology",
+    "amount": 600.21,
+    "reason": "Out of network",
+    "date": "2024-08-08",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00021",
+    "department": "Cardiology",
+    "amount": 610.49,
+    "reason": "Duplicate claim",
+    "date": "2024-10-08",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00022",
+    "department": "Radiology",
+    "amount": 1856.49,
+    "reason": "Missing info",
+    "date": "2025-06-22",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00023",
+    "department": "Oncology",
+    "amount": 2042.53,
+    "reason": "Duplicate claim",
+    "date": "2025-03-20",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00024",
+    "department": "Cardiology",
+    "amount": 650.99,
+    "reason": "Duplicate claim",
+    "date": "2025-04-25",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00025",
+    "department": "Radiology",
+    "amount": 3402.56,
+    "reason": "Invalid CPT",
+    "date": "2025-02-16",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00026",
+    "department": "Neurology",
+    "amount": 1903.31,
+    "reason": "Out of network",
+    "date": "2024-02-18",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00027",
+    "department": "Pediatrics",
+    "amount": 2133.09,
+    "reason": "Expired coverage",
+    "date": "2024-04-06",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00028",
+    "department": "Radiology",
+    "amount": 3089.29,
+    "reason": "Missing info",
+    "date": "2024-10-29",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00029",
+    "department": "Neurology",
+    "amount": 1521.88,
+    "reason": "Duplicate claim",
+    "date": "2024-04-02",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00030",
+    "department": "Cardiology",
+    "amount": 3306.92,
+    "reason": "Invalid CPT",
+    "date": "2024-03-08",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00031",
+    "department": "Radiology",
+    "amount": 784.31,
+    "reason": "Expired coverage",
+    "date": "2024-11-21",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00032",
+    "department": "Neurology",
+    "amount": 227.79,
+    "reason": "Invalid CPT",
+    "date": "2024-02-07",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00033",
+    "department": "Pediatrics",
+    "amount": 3902.5,
+    "reason": "Medical necessity",
+    "date": "2025-04-23",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00034",
+    "department": "Radiology",
+    "amount": 3970.72,
+    "reason": "Duplicate claim",
+    "date": "2025-06-05",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00035",
+    "department": "Orthopedics",
+    "amount": 3026.54,
+    "reason": "Duplicate claim",
+    "date": "2024-07-12",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00036",
+    "department": "Cardiology",
+    "amount": 3957.18,
+    "reason": "Authorization missing",
+    "date": "2024-05-11",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00037",
+    "department": "Orthopedics",
+    "amount": 2408.04,
+    "reason": "Invalid CPT",
+    "date": "2025-07-13",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00038",
+    "department": "Neurology",
+    "amount": 1718.49,
+    "reason": "Medical necessity",
+    "date": "2024-05-16",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00039",
+    "department": "Orthopedics",
+    "amount": 2431.58,
+    "reason": "Coding error",
+    "date": "2025-04-30",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00040",
+    "department": "Cardiology",
+    "amount": 664.04,
+    "reason": "Medical necessity",
+    "date": "2025-06-01",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00041",
+    "department": "Radiology",
+    "amount": 2004.67,
+    "reason": "Expired coverage",
+    "date": "2024-05-16",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00042",
+    "department": "Orthopedics",
+    "amount": 2177.28,
+    "reason": "Duplicate claim",
+    "date": "2024-01-03",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00043",
+    "department": "Orthopedics",
+    "amount": 2687.87,
+    "reason": "Coding error",
+    "date": "2024-01-25",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00044",
+    "department": "Orthopedics",
+    "amount": 305.11,
+    "reason": "Medical necessity",
+    "date": "2024-08-17",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00045",
+    "department": "Oncology",
+    "amount": 1410.78,
+    "reason": "Authorization missing",
+    "date": "2025-06-12",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00046",
+    "department": "Cardiology",
+    "amount": 2130.73,
+    "reason": "Coding error",
+    "date": "2024-03-17",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00047",
+    "department": "Oncology",
+    "amount": 2847.05,
+    "reason": "Duplicate claim",
+    "date": "2025-04-06",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00048",
+    "department": "Cardiology",
+    "amount": 2833.9,
+    "reason": "Coding error",
+    "date": "2025-04-02",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00049",
+    "department": "Oncology",
+    "amount": 1082.97,
+    "reason": "Coding error",
+    "date": "2024-04-18",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00050",
+    "department": "Oncology",
+    "amount": 635.36,
+    "reason": "Expired coverage",
+    "date": "2024-12-18",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00051",
+    "department": "Orthopedics",
+    "amount": 1267.08,
+    "reason": "Duplicate claim",
+    "date": "2024-10-14",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00052",
+    "department": "Neurology",
+    "amount": 3801.27,
+    "reason": "Missing info",
+    "date": "2024-11-26",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00053",
+    "department": "Neurology",
+    "amount": 2309.41,
+    "reason": "Missing info",
+    "date": "2024-03-12",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00054",
+    "department": "Pediatrics",
+    "amount": 1974.84,
+    "reason": "Authorization missing",
+    "date": "2024-03-06",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00055",
+    "department": "Radiology",
+    "amount": 965.99,
+    "reason": "Invalid CPT",
+    "date": "2024-06-02",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00056",
+    "department": "Cardiology",
+    "amount": 1600.3,
+    "reason": "Coding error",
+    "date": "2024-05-20",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00057",
+    "department": "Cardiology",
+    "amount": 3360.68,
+    "reason": "Out of network",
+    "date": "2025-01-01",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00058",
+    "department": "Pediatrics",
+    "amount": 404.89,
+    "reason": "Invalid CPT",
+    "date": "2024-09-20",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00059",
+    "department": "Radiology",
+    "amount": 2704.65,
+    "reason": "Out of network",
+    "date": "2025-03-13",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00060",
+    "department": "Pediatrics",
+    "amount": 213.79,
+    "reason": "Authorization missing",
+    "date": "2024-02-06",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00061",
+    "department": "Neurology",
+    "amount": 2016.1,
+    "reason": "Invalid CPT",
+    "date": "2024-09-05",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00062",
+    "department": "Orthopedics",
+    "amount": 1785.49,
+    "reason": "Authorization missing",
+    "date": "2025-05-26",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00063",
+    "department": "Oncology",
+    "amount": 2511.25,
+    "reason": "Missing info",
+    "date": "2024-01-12",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00064",
+    "department": "Oncology",
+    "amount": 2287.32,
+    "reason": "Expired coverage",
+    "date": "2025-04-22",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00065",
+    "department": "Neurology",
+    "amount": 856.69,
+    "reason": "Coding error",
+    "date": "2025-03-14",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00066",
+    "department": "Oncology",
+    "amount": 784.1,
+    "reason": "Missing info",
+    "date": "2025-06-06",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00067",
+    "department": "Orthopedics",
+    "amount": 1213.58,
+    "reason": "Out of network",
+    "date": "2024-09-26",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00068",
+    "department": "Neurology",
+    "amount": 2126.0,
+    "reason": "Coding error",
+    "date": "2025-05-18",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00069",
+    "department": "Radiology",
+    "amount": 2027.57,
+    "reason": "Invalid CPT",
+    "date": "2025-07-27",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00070",
+    "department": "Cardiology",
+    "amount": 1912.76,
+    "reason": "Authorization missing",
+    "date": "2025-01-24",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00071",
+    "department": "Cardiology",
+    "amount": 3938.9,
+    "reason": "Out of network",
+    "date": "2024-08-27",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00072",
+    "department": "Cardiology",
+    "amount": 1824.22,
+    "reason": "Authorization missing",
+    "date": "2025-06-22",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00073",
+    "department": "Neurology",
+    "amount": 2348.76,
+    "reason": "Duplicate claim",
+    "date": "2024-07-24",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00074",
+    "department": "Pediatrics",
+    "amount": 1490.64,
+    "reason": "Coding error",
+    "date": "2024-02-21",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00075",
+    "department": "Neurology",
+    "amount": 1480.5,
+    "reason": "Invalid CPT",
+    "date": "2024-09-15",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00076",
+    "department": "Neurology",
+    "amount": 808.5,
+    "reason": "Medical necessity",
+    "date": "2024-09-11",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00077",
+    "department": "Neurology",
+    "amount": 2937.12,
+    "reason": "Authorization missing",
+    "date": "2024-04-27",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00078",
+    "department": "Neurology",
+    "amount": 650.22,
+    "reason": "Authorization missing",
+    "date": "2024-07-01",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00079",
+    "department": "Oncology",
+    "amount": 3633.6,
+    "reason": "Authorization missing",
+    "date": "2024-09-11",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00080",
+    "department": "Cardiology",
+    "amount": 2329.83,
+    "reason": "Missing info",
+    "date": "2024-06-26",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00081",
+    "department": "Oncology",
+    "amount": 2859.65,
+    "reason": "Authorization missing",
+    "date": "2025-06-09",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00082",
+    "department": "Oncology",
+    "amount": 1853.53,
+    "reason": "Missing info",
+    "date": "2025-06-02",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00083",
+    "department": "Radiology",
+    "amount": 3107.49,
+    "reason": "Invalid CPT",
+    "date": "2024-02-12",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00084",
+    "department": "Pediatrics",
+    "amount": 2579.13,
+    "reason": "Invalid CPT",
+    "date": "2024-04-08",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00085",
+    "department": "Radiology",
+    "amount": 873.1,
+    "reason": "Missing info",
+    "date": "2024-01-19",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00086",
+    "department": "Radiology",
+    "amount": 2302.95,
+    "reason": "Missing info",
+    "date": "2025-04-07",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00087",
+    "department": "Orthopedics",
+    "amount": 3692.11,
+    "reason": "Medical necessity",
+    "date": "2024-02-08",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00088",
+    "department": "Orthopedics",
+    "amount": 731.46,
+    "reason": "Authorization missing",
+    "date": "2025-06-29",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00089",
+    "department": "Cardiology",
+    "amount": 153.91,
+    "reason": "Duplicate claim",
+    "date": "2024-06-24",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00090",
+    "department": "Pediatrics",
+    "amount": 1919.28,
+    "reason": "Medical necessity",
+    "date": "2025-07-25",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00091",
+    "department": "Cardiology",
+    "amount": 380.15,
+    "reason": "Missing info",
+    "date": "2025-06-13",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00092",
+    "department": "Cardiology",
+    "amount": 894.84,
+    "reason": "Expired coverage",
+    "date": "2024-07-13",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00093",
+    "department": "Neurology",
+    "amount": 3799.17,
+    "reason": "Medical necessity",
+    "date": "2024-11-03",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00094",
+    "department": "Radiology",
+    "amount": 3314.91,
+    "reason": "Out of network",
+    "date": "2024-07-29",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00095",
+    "department": "Orthopedics",
+    "amount": 859.14,
+    "reason": "Authorization missing",
+    "date": "2024-01-23",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00096",
+    "department": "Neurology",
+    "amount": 1731.45,
+    "reason": "Expired coverage",
+    "date": "2025-02-09",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00097",
+    "department": "Pediatrics",
+    "amount": 3538.91,
+    "reason": "Medical necessity",
+    "date": "2025-01-04",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00098",
+    "department": "Cardiology",
+    "amount": 1713.72,
+    "reason": "Duplicate claim",
+    "date": "2025-01-11",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00099",
+    "department": "Radiology",
+    "amount": 3146.73,
+    "reason": "Expired coverage",
+    "date": "2024-09-13",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00100",
+    "department": "Neurology",
+    "amount": 2733.39,
+    "reason": "Missing info",
+    "date": "2025-05-30",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00101",
+    "department": "Radiology",
+    "amount": 2912.78,
+    "reason": "Coding error",
+    "date": "2024-03-25",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00102",
+    "department": "Orthopedics",
+    "amount": 2881.27,
+    "reason": "Medical necessity",
+    "date": "2025-02-01",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00103",
+    "department": "Radiology",
+    "amount": 2668.59,
+    "reason": "Invalid CPT",
+    "date": "2025-01-06",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00104",
+    "department": "Orthopedics",
+    "amount": 837.49,
+    "reason": "Expired coverage",
+    "date": "2024-04-13",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00105",
+    "department": "Orthopedics",
+    "amount": 462.57,
+    "reason": "Invalid CPT",
+    "date": "2024-09-10",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00106",
+    "department": "Pediatrics",
+    "amount": 1086.13,
+    "reason": "Authorization missing",
+    "date": "2025-02-10",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00107",
+    "department": "Orthopedics",
+    "amount": 3933.23,
+    "reason": "Out of network",
+    "date": "2025-02-01",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00108",
+    "department": "Pediatrics",
+    "amount": 3413.24,
+    "reason": "Expired coverage",
+    "date": "2024-11-19",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00109",
+    "department": "Pediatrics",
+    "amount": 1040.46,
+    "reason": "Expired coverage",
+    "date": "2025-04-26",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00110",
+    "department": "Neurology",
+    "amount": 1840.18,
+    "reason": "Expired coverage",
+    "date": "2025-01-30",
+    "payer": "Humana"
+  },
+  {
+    "id": "D00111",
+    "department": "Cardiology",
+    "amount": 1980.39,
+    "reason": "Out of network",
+    "date": "2024-11-22",
+    "payer": "Aetna"
+  },
+  {
+    "id": "D00112",
+    "department": "Oncology",
+    "amount": 3040.13,
+    "reason": "Expired coverage",
+    "date": "2024-05-12",
+    "payer": "Cigna"
+  },
+  {
+    "id": "D00113",
+    "department": "Cardiology",
+    "amount": 3184.05,
+    "reason": "Medical necessity",
+    "date": "2024-02-19",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00114",
+    "department": "Radiology",
+    "amount": 2821.64,
+    "reason": "Invalid CPT",
+    "date": "2024-05-06",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00115",
+    "department": "Radiology",
+    "amount": 3170.47,
+    "reason": "Medical necessity",
+    "date": "2025-06-09",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00116",
+    "department": "Orthopedics",
+    "amount": 3479.44,
+    "reason": "Medical necessity",
+    "date": "2025-04-14",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00117",
+    "department": "Pediatrics",
+    "amount": 3715.44,
+    "reason": "Expired coverage",
+    "date": "2025-01-27",
+    "payer": "BCBS"
+  },
+  {
+    "id": "D00118",
+    "department": "Orthopedics",
+    "amount": 3382.35,
+    "reason": "Out of network",
+    "date": "2024-05-20",
+    "payer": "Medicare"
+  },
+  {
+    "id": "D00119",
+    "department": "Pediatrics",
+    "amount": 2220.52,
+    "reason": "Authorization missing",
+    "date": "2024-12-26",
+    "payer": "Humana"
+  }
+]
