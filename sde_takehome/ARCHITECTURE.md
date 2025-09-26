@@ -3,22 +3,42 @@
 ## Design Decisions
 
 ### Data Structures
-- **Choice**: [Describe your choice of data structures for storing pipeline metrics and execution data]
-- **Trade-offs**: [What alternatives did you consider? Memory vs speed considerations?]
+- **Choice**: Implemented circular buffers (fixed-size lists) for time-series data like durations and throughput
+- **Trade-offs**: 
+  - Fixed-size history provides constant memory usage while maintaining recent trends
+  - Chose lists over numpy arrays for simplicity and lower memory overhead
+  - Alternative considered: Time-series database would be better for production but overkill here
 
 ### Monitoring Strategy
-- **Approach**: [How did you implement pipeline health tracking?]
-- **Metrics**: [What key metrics do you track and why?]
+- **Approach**: Multi-dimensional health tracking with statistical analysis
+- **Metrics**: 
+  - Success rate: Primary indicator of pipeline reliability
+  - Duration statistics: Detect performance degradation
+  - Throughput: Records processed per second
+  - Failure patterns: Consecutive failures detection
 
 ### Anomaly Detection
-- **Algorithm**: [What method did you use for detecting pipeline anomalies?]
-- **Thresholds**: [How did you determine what constitutes an anomaly?]
-- **Severity Levels**: [How do you classify alert severity?]
+- **Algorithm**: Statistical analysis using z-scores for continuous metrics
+- **Thresholds**: 
+  - Success rate < 80%: Medium severity
+  - Success rate < 50%: High severity
+  - Duration > 2 std deviations: Medium severity
+  - Duration > 3 std deviations: High severity
+  - Throughput drop > 50%: High severity
+- **Severity Levels**: Based on impact and urgency
+  - Critical: Multiple consecutive failures
+  - High: Severe performance degradation
+  - Medium: Minor anomalies
+  - Low: Informational alerts
 
 ### Alerting System
-- **Routing**: [How do you route alerts to appropriate teams?]
-- **Deduplication**: [How do you prevent alert spam?]
-- **Escalation**: [How do you handle escalating alerts?]
+- **Routing**: Team-based routing using pipeline ownership metadata
+- **Deduplication**: 
+  - 1-hour cooldown window for similar alerts
+  - Alert comparison based on severity and message content
+- **Escalation**: 
+  - Automatic severity escalation for repeated failures
+  - Critical alerts for pattern-based anomalies
 
 ## Scaling Considerations
 
