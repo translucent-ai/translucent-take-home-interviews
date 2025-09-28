@@ -17,7 +17,7 @@
 
 ### Alerting System
 - **Routing**: [How do you route alerts to appropriate teams?]
-- **Deduplication**: [How do you prevent alert spam?]
+- **Deduplication**: [How do you prevent oncall fatigue?]
 - **Escalation**: [How do you handle escalating alerts?]
 
 ## Scaling Considerations
