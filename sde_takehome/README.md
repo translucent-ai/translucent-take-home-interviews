@@ -16,8 +16,7 @@
 3. **Implement intelligent alerting** with different severity levels and team routing
 4. **Add anomaly detection** for performance degradation and failure patterns
 5. **Optimize for high-volume** event processing using efficient data structures
-6. **Add dashboard capabilities** to visualize pipeline health and trends
-7. Write a **short `ARCHITECTURE.md`** (≤1 page) explaining your design choices and how you'd scale this system
+6. Write a **short `ARCHITECTURE.md`** (≤1 page) explaining your design choices and how you'd scale this system
 
 ## Running locally
 
