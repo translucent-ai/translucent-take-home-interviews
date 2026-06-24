@@ -1,4 +1,4 @@
-# Take‑Home (2‑3 hrs) – Software Engineer Frontend
+# Take-Home (1-2 hrs) – Product Engineer
 
 **Objective:** Add one interactive chart and a department filter to an existing React dashboard.
 
@@ -14,3 +14,5 @@
 2. Add department filter dropdown that hooks into existing query.
 3. Make the failing test pass (expecting chart title and filter interaction).
 4. Write **`DECISIONS.md`** (≤1 page) describing performance and a11y considerations.
+
+> If you finish the requirements with time to spare, show us what you do with it. We care about product sense and UX, not just whether it works.
