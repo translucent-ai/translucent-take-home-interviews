@@ -1,4 +1,6 @@
 pandas
 scikit-learn
 sentence-transformers
+openai
+python-dotenv
 pytest
