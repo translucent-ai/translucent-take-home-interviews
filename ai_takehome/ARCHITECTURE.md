@@ -20,7 +20,7 @@ The exercise came with `baseline_agent.py`. I made a couple tweaks there first, 
 
 ## Data exploration (`explore.ipynb`)
 
-Before building the semantic agent, I spent time in a notebook looking at the CSV directly: groupbys on department and denial reason, value counts, etc. Most of the eval questions aren't really "find similar documents" problems. They're aggregation questions.That exploration is what pushed me away from claim-level chunks toward pre-built count summaries.
+Before building the semantic agent, I spent time in a notebook looking at the CSV directly: groupbys on department and denial reason, value counts, etc. Most of the eval questions aren't really "find similar documents" problems. They're aggregation questions. That exploration is what pushed me away from claim-level chunks toward pre-built count summaries.
 
 I didn't change `eval.py`. Looking at the data, a few expected keywords don't line up perfectly with the top counts (e.g. radiology's most common reasons in the data aren't exactly what the eval checks for). I worked toward the eval as given rather than second-guessing it, but I'd flag that in a real project.
 
@@ -56,7 +56,7 @@ The five keyword-matching eval tests aren't great for measuring hallucination th
 
 **Hybrid routing.** I'd combine embeddings with the SQL tool idea above. Embeddings handle fuzzy matching well ("heart department billing issues" probably means Cardiology). SQL handles exact counts and dimensions you didn't pre-summarize (payer, claim ID, date ranges). Use SQL for straightforward analytical questions; use retrieval when the question is messier or needs domain context like a medical term FAQ.
 
-**Richer evals.** I'd extend the benchmark by adding payer-level questions, specific claim lookups, definitional vs analytical cases, and out-of-distribution phrasing. And actually measure context relevance, factual consistently and whether "I don't know" shows up when it should. I'd would measure retrieval and generation steps separately, and either extract ground truths or leverage LLM as a judge. 
+**Richer evals.** I'd extend the benchmark by adding payer-level questions, specific claim lookups, definitional vs analytical cases, and out-of-distribution phrasing. And actually measure context relevance, factual consistency and whether "I don't know" shows up when it should. I'd measure retrieval and generation steps separately, and either extract ground truths or leverage LLM as a judge. 
 
 **Pluggable retriever and LLM layers.** Retrieval and generation are pretty tied to sentence-transformers and OpenAI right now. I'd put both behind interfaces so the core agent stays the same and you plug in adapters: TF-IDF, sentence-transformers, a cross-encoder for reranking, OpenAI, or a local model. Same flow, different backends, less rewriting when you want to experiment.
 
