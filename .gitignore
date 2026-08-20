@@ -216,3 +216,6 @@ tfplan*
 repo_info.json
 test.json
 .DS_Store
+
+# Frontend
+node_modules/
