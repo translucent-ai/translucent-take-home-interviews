@@ -1,0 +1,9 @@
+fastapi>=0.110
+uvicorn[standard]>=0.29
+pytest>=8.0
+httpx>=0.27
+
+# Optional — persistence is your choice, see README. Installing these
+# does not commit you to using them. Pick one or the other.
+sqlalchemy>=2.0   # SQLite (stdlib driver, no server to run)
+pymongo>=4.9      # MongoDB (needs a mongod; see README)

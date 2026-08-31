@@ -1,4 +1,4 @@
-# Take-Home (1-2 hrs) – Product Engineer
+# Take-Home (2-3 hrs) – Product Engineer (Frontend-Leaning)
 
 **Objective:** Add one interactive chart and a department filter to an existing React dashboard.
 
