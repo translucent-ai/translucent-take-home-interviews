@@ -94,6 +94,6 @@ rest.
 
 ## Submission
 
-* Push to a Git repo or share a zip.
+* Email us a zip of the project (leave out `venv/` and `node_modules/`).
 * Make sure `uv run pytest` passes and both servers start.
 * `DECISIONS.md` is weighted as heavily as the code.
