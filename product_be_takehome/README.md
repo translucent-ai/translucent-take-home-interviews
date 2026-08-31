@@ -38,6 +38,6 @@ npm run dev                          # dashboard on :5173, proxies /api to :8000
 
 ## Submission
 
-* Push to a Git repo or share a zip.
+* Email us a zip of the project (leave out `venv/` and `node_modules/`).
 * Make sure `pytest` passes and both servers start.
 * `DECISIONS.md` is weighted as heavily as the code.
