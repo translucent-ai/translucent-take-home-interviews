@@ -4,6 +4,7 @@ import pathlib
 from fastapi import FastAPI, HTTPException
 from fastapi.middleware.cors import CORSMiddleware
 
+from .db import fetch_remits, store_remits
 from .transform import transform_record
 
 app = FastAPI(title="Denials Ingestion Service")
@@ -16,18 +17,27 @@ app.add_middleware(
 )
 
 DATA_PATH = pathlib.Path(__file__).parent.parent / "data" / "sample_remittance.json"
-normalized: list[dict] = []
+
+
+def load_raw_records() -> list[dict]:
+    """Provided. The feed exactly as it sits on disk — nothing to do here."""
+    return json.loads(DATA_PATH.read_text())
 
 
 @app.on_event("startup")
 def ingest() -> None:
-    records = json.loads(DATA_PATH.read_text())
-    normalized.clear()
+    """Load, normalize, persist.
+
+    The load is given and the normalize is `transform_record()`. The write
+    is yours: the service must survive a restart, so the feed has to land
+    in a real store. See `app/db.py`.
+    """
     try:
-        normalized.extend(transform_record(r) for r in records)
+        records = [transform_record(r) for r in load_raw_records()]
+        store_remits(records)
     except NotImplementedError:
         # App still boots; /remits explains what's missing.
-        normalized.clear()
+        pass
 
 
 @app.get("/healthz")
@@ -37,15 +47,27 @@ def healthz() -> dict:
 
 @app.get("/remits")
 def remits() -> list[dict]:
-    if not normalized:
-        raise HTTPException(503, "transform_record is not implemented yet")
-    return normalized
+    """The normalized feed, straight from your store. Backs the table in
+    the dashboard, so it is the fastest way to see your work render."""
+    try:
+        rows = fetch_remits()
+    except NotImplementedError:
+        raise HTTPException(503, "persistence is not implemented yet — see app/db.py")
+    if not rows:
+        raise HTTPException(
+            503,
+            "no remits stored — implement transform_record() and the read/write "
+            "pair in app/db.py, then restart to re-run ingest()",
+        )
+    return rows
 
 
 @app.get("/claims")
 def claims():
     """One entry per claim. The feed is remit-level; what a claim's
-    status and amounts are is yours to decide. The shape is yours."""
+    status and amounts are is yours to decide. The shape is yours.
+
+    Read from the store, not from a module-level list — see `app/db.py`."""
     # TODO: implement me
     raise NotImplementedError
 
