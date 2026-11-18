@@ -20,6 +20,6 @@
     "typescript": "^5.2.0",
     "@testing-library/react": "^13.4.0",
     "@testing-library/jest-dom": "^5.16.4",
-    "jest": "^27.5.1"
+    "jest": "^30.0.0"
   }
 }
