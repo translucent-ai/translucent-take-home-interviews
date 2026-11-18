@@ -1,0 +1,17 @@
+name: Automerge Renovate PRs
+
+on:
+  pull_request:
+    types: [opened, synchronize, reopened, labeled]
+
+permissions:
+  contents: write
+  pull-requests: write
+
+jobs:
+  automerge:
+    if: >-
+      contains(fromJSON('["translucent-renovate[bot]","translucent-rerenovator[bot]"]'), github.actor) &&
+      contains(github.event.pull_request.labels.*.name, 'renovate:automerge')
+    uses: translucent-ai/github-workflows/.github/workflows/renovate-automerge.yml@v2.103.22
+    secrets: inherit
