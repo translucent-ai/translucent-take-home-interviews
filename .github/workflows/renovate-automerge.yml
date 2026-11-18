@@ -8,10 +8,56 @@ permissions:
   contents: write
   pull-requests: write
 
+concurrency:
+  group: renovate-automerge-${{ github.repository }}-${{ github.event.pull_request.number }}
+  cancel-in-progress: false
+
 jobs:
   automerge:
     if: >-
+      github.repository == 'translucent-ai/translucent-take-home-interviews' &&
       contains(fromJSON('["translucent-renovate[bot]","translucent-rerenovator[bot]"]'), github.actor) &&
       contains(github.event.pull_request.labels.*.name, 'renovate:automerge')
-    uses: translucent-ai/github-workflows/.github/workflows/renovate-automerge.yml@v2.103.22
-    secrets: inherit
+    runs-on: ubuntu-latest
+    steps:
+      - name: Approve and enable automerge on Renovate PR
+        env:
+          GH_TOKEN: ${{ secrets.BOT_APPROVER_PAT }}
+          BOT_PAT: ${{ secrets.BOT_PAT }}
+          PR: ${{ github.event.pull_request.number }}
+          REPO: ${{ github.repository }}
+          APPROVAL_BODY: "✅ Auto-approved Renovate PR (patch/minor dependency update)"
+        run: |
+          set -euo pipefail
+          gh api "repos/$REPO/pulls/$PR" >pr.json
+          state="$(jq -r '.state' pr.json)"
+          merged="$(jq -r '.merged' pr.json)"
+          draft="$(jq -r '.draft' pr.json)"
+          head_sha="$(jq -r '.head.sha' pr.json)"
+          ask_review="$(jq -r '[.labels[].name] | index("ask-review") != null' pr.json)"
+          approver_login="$(gh api user --jq .login)"
+
+          gh api --paginate "repos/$REPO/pulls/$PR/reviews?per_page=100" >reviews.json
+          jq -s --arg login "$approver_login" \
+            'add // [] | map(select(.state == "APPROVED" and .user.login == $login))' \
+            reviews.json >own.json
+
+          if [ "$ask_review" = "true" ]; then
+            ids="$(jq -r --arg body "$APPROVAL_BODY" '.[] | select((.body // "") | gsub("^\\s+|\\s+$"; "") == $body) | .id' own.json)"
+            for id in $ids; do
+              GH_TOKEN="$BOT_PAT" gh api -X PUT "repos/$REPO/pulls/$PR/reviews/$id/dismissals" \
+                -f message="Dismissed: the \`ask-review\` label was applied, which forces Ask tier. A human CODEOWNER approval is required." \
+                -f event=DISMISS >/dev/null
+            done
+            exit 0
+          fi
+
+          if [ "$state" != "open" ] || [ "$merged" = "true" ] || [ "$draft" != "false" ]; then
+            exit 0
+          fi
+
+          if ! jq -e --arg sha "$head_sha" 'any(.[]; .commit_id == $sha)' own.json >/dev/null; then
+            gh pr review "$PR" --repo "$REPO" --approve --body "$APPROVAL_BODY"
+          fi
+
+          GH_TOKEN="$BOT_PAT" gh pr merge "$PR" --repo "$REPO" --auto --squash
